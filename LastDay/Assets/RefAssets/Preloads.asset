@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1179171e0e744d14580b4fee65b61e53, type: 3}
+  m_Name: Preloads
+  m_EditorClassIdentifier: 
+  m_Preloads:
+  - path: atlas/common/
+    method: 2
+  - path: atlas/battle/
+    method: 2
+  - path: atlas/itemicon/
+    method: 2
+  - path: shared/animation/
+    method: 2
+  - path: game/
+    method: 3
+  - path: fmod/ui/
+    method: 3
+  - path: fonts/mainfont.cn/
+    method: 3
+  - path: ui/
+    method: 3

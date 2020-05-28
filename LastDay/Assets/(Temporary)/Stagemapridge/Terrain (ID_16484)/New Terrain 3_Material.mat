@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: New Terrain 3_Material
+  m_Shader: {fileID: 4800000, guid: 414efc8f83135aa47807d1aa5caf0b50, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Control:
+        m_Texture: {fileID: 2800000, guid: 08d6c8e26d0a1fa479768eeff35c887c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat1:
+        m_Texture: {fileID: 2800000, guid: df77a746f3bb81142a2d21c5e1575228, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat2:
+        m_Texture: {fileID: 2800000, guid: 66161a86fde025a439f2f890c5cfd228, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat3:
+        m_Texture: {fileID: 2800000, guid: d35d6fd5d2330f345b4bb1c352ebcfbf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat4:
+        m_Texture: {fileID: 2800000, guid: 9d34e08b5368f22458a9129c8eca32ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _V_T2M_Splat1_uvScale: 100
+    - _V_T2M_Splat2_uvScale: 125
+    - _V_T2M_Splat3_uvScale: 125
+    - _V_T2M_Splat4_uvScale: 125
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,11 @@
+return {{level=1,exp=100,},
+{level=2,exp=200,},
+{level=3,exp=300,},
+{level=4,exp=400,},
+{level=5,exp=500,},
+{level=6,exp=600,},
+{level=7,exp=700,},
+{level=8,exp=800,},
+{level=9,exp=900,},
+{level=10,exp=0,},
+}

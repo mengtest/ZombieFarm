@@ -1,0 +1,3 @@
+return {{ID=1,type=1,mall=0,mallMode="",assetCost="13",levelRequired=1,vipRequired=0,refreshCycle="",refreshTime="12:00:00|21:00:00",refreshMaxNum=20,refreshFreeNum=0,refreshItemID=0,refreshCostID=3,refreshCostNum=50,additionCost=50,maxCost=400,discountType=0,discount="",residentGoodsID="",RGDResetMode=0,},
+{ID=2,type=1,mall=0,mallMode="",assetCost="10000",levelRequired=1,vipRequired=0,refreshCycle="",refreshTime="12:00:00|22:00:00",refreshMaxNum=20,refreshFreeNum=0,refreshItemID=0,refreshCostID=3,refreshCostNum=50,additionCost=50,maxCost=400,discountType=0,discount="",residentGoodsID="",RGDResetMode=0,},
+}

@@ -1,0 +1,13 @@
+return {{GoodsID=1,LenovoGoodsID="12036",},
+{GoodsID=3,LenovoGoodsID="12037",},
+{GoodsID=4,LenovoGoodsID="12038",},
+{GoodsID=5,LenovoGoodsID="12039",},
+{GoodsID=7,LenovoGoodsID="12040",},
+{GoodsID=8,LenovoGoodsID="12041",},
+{GoodsID=9,LenovoGoodsID="12042",},
+{GoodsID=10,LenovoGoodsID="12043",},
+{GoodsID=11,LenovoGoodsID="32030",},
+{GoodsID=12,LenovoGoodsID="32031",},
+{GoodsID=13,LenovoGoodsID="32032",},
+{GoodsID=14,LenovoGoodsID="35926",},
+}

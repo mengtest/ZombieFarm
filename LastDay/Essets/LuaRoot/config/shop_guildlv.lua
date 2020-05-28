@@ -1,0 +1,12 @@
+return {{ID=1,ShopLv=1,goodsNum=2,},
+{ID=1,ShopLv=2,goodsNum=3,},
+{ID=1,ShopLv=3,goodsNum=3,},
+{ID=1,ShopLv=4,goodsNum=4,},
+{ID=1,ShopLv=5,goodsNum=4,},
+{ID=1,ShopLv=6,goodsNum=5,},
+{ID=1,ShopLv=7,goodsNum=5,},
+{ID=1,ShopLv=8,goodsNum=6,},
+{ID=1,ShopLv=9,goodsNum=6,},
+{ID=1,ShopLv=10,goodsNum=6,},
+{ID=2,ShopLv=1,goodsNum=3,},
+}

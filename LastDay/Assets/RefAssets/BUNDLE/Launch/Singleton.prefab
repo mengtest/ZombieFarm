@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &197162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 497162}
+  - component: {fileID: 11452182}
+  - component: {fileID: 114901207368776834}
+  - component: {fileID: 114541252843651140}
+  - component: {fileID: 114303538180442530}
+  - component: {fileID: 114001372300138486}
+  - component: {fileID: 114068947224187906}
+  - component: {fileID: 114395710626713144}
+  m_Layer: 0
+  m_Name: Singleton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497162
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11452182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3360e88dc4ff54589a7eabafa5f60d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luaScript: network/networkmgr
+  onInit: on_nc_init
+  onHttpRes: on_www
+  onHttpDownload: on_download
+  knownHost: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 197162}
+  m_IsPrefabParent: 1
+--- !u!114 &114001372300138486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ec08f86a92af043a9d31d9d56afbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaScript: framework/clock.lua
+  m_Method: update_clock
+  interval: 1
+  ignoreTimeScale: 1
+--- !u!114 &114068947224187906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ec08f86a92af043a9d31d9d56afbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaScript: framework/clock.lua
+  m_Method: update_frame
+  interval: 0.1
+  ignoreTimeScale: 1
+--- !u!114 &114303538180442530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c137980be71dd4cb6c58cc645202f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ResidentBanks:
+  - fmod/ui/UI
+--- !u!114 &114395710626713144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2f83536343460429124d9691702c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ServerURL: 
+  m_AutoUploadCrashes: 1
+  m_ExceptionLogging: 1
+  m_UserMetrics: 1
+  m_UpdateAlert: 0
+  m_AutoUploadLimit: 5
+  m_FileCountLimit: 100
+  m_Configs:
+  - platform: 11
+    appId: fcc7179eaaba40c7aa1f5f2be81ff5d3
+    packageId: com.kingsgroup.survival
+    secret: c87650c379f69a6e174a700dac4716ce
+  - platform: 8
+    appId: 536028aa3bbd44fbabd4525e5603e2c7
+    packageId: com.kingsgroup.ent.lastday
+    secret: a1969b5e936c653e7d8652c35d842555
+--- !u!114 &114541252843651140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1d0e76b994642f398ddaf58750511b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaPackage: framework/sdk
+--- !u!114 &114901207368776834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47fa32f829fdf4f0fb17b2ef00a8d18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaPackage: framework/notify

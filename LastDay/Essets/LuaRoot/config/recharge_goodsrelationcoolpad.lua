@@ -1,0 +1,13 @@
+return {{GoodsID=1,CoolpadGoodsID="1",},
+{GoodsID=3,CoolpadGoodsID="2",},
+{GoodsID=4,CoolpadGoodsID="3",},
+{GoodsID=5,CoolpadGoodsID="4",},
+{GoodsID=7,CoolpadGoodsID="5",},
+{GoodsID=8,CoolpadGoodsID="6",},
+{GoodsID=9,CoolpadGoodsID="7",},
+{GoodsID=10,CoolpadGoodsID="8",},
+{GoodsID=11,CoolpadGoodsID="9",},
+{GoodsID=12,CoolpadGoodsID="10",},
+{GoodsID=13,CoolpadGoodsID="11",},
+{GoodsID=14,CoolpadGoodsID="12",},
+}

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Radio
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 2
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    packingParameters:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: cdcaa08e3bd2a91499ecaee505df92c4, type: 3}
+    bindAsDefault: 0
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c0a44ebeded65de4a8df6ab1cf2a738d, type: 3}
+  - {fileID: 21300000, guid: 20e7ea1adbb644f458358132e2ae05e9, type: 3}
+  - {fileID: 21300000, guid: 16d696bdb0587204fa2e54ef97e50a54, type: 3}
+  - {fileID: 21300000, guid: 0d13822d326f389468bdb520d5bf0f52, type: 3}
+  - {fileID: 21300000, guid: 6a1e0201b83b5fc4a8e274e90b2aed34, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - sp_radio_02
+  - sp_radio_03
+  - sp_radio_06
+  - sp_radio_04
+  - sp_radio_05
+  m_Tag: Radio
+  m_IsVariant: 0

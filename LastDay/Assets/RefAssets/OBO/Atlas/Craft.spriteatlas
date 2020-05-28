@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Craft
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 2
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 34
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    - m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 10
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    - m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    packingParameters:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 7fb170b0981f37841b1275e677650690, type: 3}
+    - {fileID: 102900000, guid: bbbaa5309fca28941a20e7378c720f5c, type: 3}
+    bindAsDefault: 0
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 7d2fe8e4ef69da2458fb7df0fd663046, type: 3}
+  - {fileID: 21300000, guid: 9b06ba7e2f5790446a4828a15f79c2f2, type: 3}
+  - {fileID: 21300000, guid: a33715e73fdcf064e941deed2ff70101, type: 3}
+  - {fileID: 21300000, guid: f29b9373921d659468378b51eb8ed6fd, type: 3}
+  - {fileID: 21300000, guid: 4d695338ddfb3324b8d71a0319dc4060, type: 3}
+  - {fileID: 21300000, guid: a4bdaa556fef1d740b75287120b801c3, type: 3}
+  - {fileID: 21300000, guid: 09e2fa11c2786104eac5aade9af09faf, type: 3}
+  - {fileID: 21300000, guid: 0b4f7975e08999240b2a533ecff3036a, type: 3}
+  - {fileID: 21300000, guid: e9a75b569b4ef0f4fad6c3a631c48d94, type: 3}
+  - {fileID: 21300000, guid: 54eb2c22a5ea1e74d8bc429aa73c4deb, type: 3}
+  - {fileID: 21300000, guid: 712f9bf67f9e6e241a57eba518d83fff, type: 3}
+  - {fileID: 21300000, guid: be811e5ef74edb940bf92faeb6471863, type: 3}
+  - {fileID: 21300000, guid: 1488a7bc99a7990488bdfddd77756b41, type: 3}
+  - {fileID: 21300000, guid: 45f2608e78ac14640b522dea683d4e4a, type: 3}
+  - {fileID: 21300000, guid: 933f1defb2afc1f4fa50a3d949af5dc0, type: 3}
+  - {fileID: 21300000, guid: 4568c6fb210c9ac4baf63c5b6c991aab, type: 3}
+  - {fileID: 21300000, guid: 83d602ad92315e04898e6690d053f2ec, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - bg_talent_01
+  - ico_talent_007
+  - ico_talent_003
+  - frm_craft_01
+  - ico_talent_005
+  - ico_talent_004
+  - ico_talent_006
+  - ico_talent_002
+  - ico_talent_001
+  - ico_craft_01
+  - ico_craft_07
+  - ico_craft_02
+  - ico_craft_05
+  - ico_craft_04
+  - ico_craft_03
+  - ico_craft_06
+  - pic_talent_01
+  m_Tag: Craft
+  m_IsVariant: 0

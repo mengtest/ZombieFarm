@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1154094958438588}
+  m_IsPrefabParent: 1
+--- !u!1 &1154094958438588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4256299540231514}
+  - component: {fileID: 114361535149880784}
+  m_Layer: 0
+  m_Name: DayNight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4256299540231514
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1154094958438588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114361535149880784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1154094958438588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de8076c177cac9f48b422fccfec24543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Cycle: 0
+  m_LightColor:
+    serializedVersion: 2
+    key0: {r: 0.73745674, g: 0.9117647, b: 0.8612755, a: 1}
+    key1: {r: 0.73745674, g: 0.9117647, b: 0.8612755, a: 1}
+    key2: {r: 0.73745674, g: 0.9117647, b: 0.8612755, a: 1}
+    key3: {r: 1, g: 0.91034484, b: 0.75, a: 1}
+    key4: {r: 1, g: 0.91034484, b: 0.75, a: 1}
+    key5: {r: 1, g: 0.7649088, b: 0.5514706, a: 1}
+    key6: {r: 0.34731835, g: 0.46101302, b: 0.64705884, a: 0.88235295}
+    key7: {r: 0.62601626, g: 0.7113822, b: 1, a: 0.88235295}
+    ctime0: 7878
+    ctime1: 14013
+    ctime2: 17694
+    ctime3: 29491
+    ctime4: 44564
+    ctime5: 52428
+    ctime6: 65535
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 38728
+    atime3: 47931
+    atime4: 47931
+    atime5: 65535
+    atime6: 65535
+    atime7: 65535
+    m_Mode: 0
+    m_NumColorKeys: 7
+    m_NumAlphaKeys: 2
+  m_LightIntensity:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1.5002642
+      inSlope: 0
+      outSlope: 0.19975543
+      tangentMode: 65
+    - serializedVersion: 2
+      time: 0.1
+      value: 1.5202397
+      inSlope: 0.20513184
+      outSlope: 0.19694355
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.20416668
+      value: 1.5651761
+      inSlope: 0.62315476
+      outSlope: 0.5089498
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.39829642
+      value: 1.6003419
+      inSlope: 0.0739259
+      outSlope: -0.0030744832
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.5
+      value: 1.6000292
+      inSlope: -0.0030744832
+      outSlope: -0.000050273924
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.65
+      value: 1.5914098
+      inSlope: -0.11611976
+      outSlope: -0.088608615
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.7425894
+      value: 1.5776758
+      inSlope: -0.109555215
+      outSlope: -0.14059155
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.85
+      value: 1.5201856
+      inSlope: -0.2071496
+      outSlope: -0.26124457
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 1
+      value: 1.4995136
+      inSlope: -0.018990591
+      outSlope: 0
+      tangentMode: 1
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  m_ShadowStrength:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.3995425
+      inSlope: 0
+      outSlope: 0.018623333
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.1966384
+      value: 0.46869162
+      inSlope: 0.6742183
+      outSlope: 0.44528776
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.2975
+      value: 0.5745308
+      inSlope: 0.60754055
+      outSlope: 0.2943245
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.49198
+      value: 0.60304564
+      inSlope: 0.06130929
+      outSlope: 0.009979249
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.6073303
+      value: 0.58504224
+      inSlope: -0.26160985
+      outSlope: -0.26160985
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.7
+      value: 0.5
+      inSlope: -0.7370212
+      outSlope: -0.7370212
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.84378195
+      value: 0.4200069
+      inSlope: -0.3259897
+      outSlope: -0.3259897
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0.3993265
+      inSlope: -0.043921504
+      outSlope: 0
+      tangentMode: 1
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  m_LightAngle:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 59.909252
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.49599445
+      value: 90.128426
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 59.909252
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  m_Accuracy: 0
+  m_Morning: 0.229
+  m_Dusk: 0.79
+  m_DayNight:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_PointColor:
+    serializedVersion: 2
+    key0: {r: 0.18382353, g: 0.18382353, b: 0.18382353, a: 1}
+    key1: {r: 0.1102941, g: 0.1102941, b: 0.1102941, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0.88235295}
+    key3: {r: 0, g: 0, b: 0, a: 0.88235295}
+    key4: {r: 0.1102941, g: 0.1102941, b: 0.1102941, a: 0.88235295}
+    key5: {r: 0.3602941, g: 0.36294332, b: 0.36294332, a: 0.88235295}
+    key6: {r: 0.1102941, g: 0.1102941, b: 0.1102941, a: 0.88235295}
+    key7: {r: 0.5411765, g: 0.5208028, b: 0.4647751, a: 0}
+    ctime0: 6554
+    ctime1: 11817
+    ctime2: 16384
+    ctime3: 51138
+    ctime4: 55286
+    ctime5: 58668
+    ctime6: 58668
+    ctime7: 59609
+    atime0: 0
+    atime1: 65535
+    atime2: 32768
+    atime3: 32768
+    atime4: 65535
+    atime5: 65535
+    atime6: 65535
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 6
+    m_NumAlphaKeys: 2

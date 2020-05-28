@@ -1,0 +1,11 @@
+return {{ID=1,level=2,icon="ico_petability_001",nameTextID=11001,describtionTextID=12001,},
+{ID=2,level=4,icon="ico_petability_002",nameTextID=11002,describtionTextID=12002,},
+{ID=3,level=6,icon="ico_petability_003",nameTextID=11003,describtionTextID=12003,},
+{ID=4,level=8,icon="ico_petability_004",nameTextID=11004,describtionTextID=12004,},
+{ID=5,level=1,icon="ico_petability_005",nameTextID=11005,describtionTextID=12005,},
+{ID=6,level=3,icon="ico_petability_006",nameTextID=11006,describtionTextID=12006,},
+{ID=7,level=5,icon="ico_petability_007",nameTextID=11007,describtionTextID=12007,},
+{ID=8,level=7,icon="ico_petability_008",nameTextID=11008,describtionTextID=12008,},
+{ID=9,level=6,icon="ico_petability_009",nameTextID=11009,describtionTextID=12009,},
+{ID=10,level=8,icon="ico_petability_010",nameTextID=11010,describtionTextID=12010,},
+}

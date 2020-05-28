@@ -1,0 +1,10 @@
+return {{ID=1,Type="<GUILD_OPERATOR_NAME>",},
+{ID=2,Type="<GUILD_JOB>",},
+{ID=3,Type="<GUILD_ITEMNAME>",},
+{ID=4,Type="<GUILD_BUILD>",},
+{ID=5,Type="<GUILD_CAPITAL>",},
+{ID=6,Type="<GUILD_MAINTENANCEFEE>",},
+{ID=7,Type="<GUILD_ROLE_NAME>",},
+{ID=8,Type="<GUILD_DONATEITEM_NAME>",},
+{ID=9,Type="<GUILD_DONATEITEM_COUNT>",},
+}

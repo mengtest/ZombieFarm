@@ -1,0 +1,10 @@
+return {{ID=0,coordinate="640:360",model="",icon="Common/ico_global_camp",},
+{ID=1001,coordinate="300:200",model="",icon="Common/ico_global_wild",},
+{ID=1101,coordinate="800:500",model="",icon="Common/ico_global_forest",},
+{ID=1109,coordinate="300:600",model="",icon="Common/ico_global_forest",},
+{ID=1202,coordinate="800:300",model="",icon="Common/ico_global_quarry",},
+{ID=9002,coordinate="450:400",model="",icon="Common/ico_global_arena",},
+{ID=2001,coordinate="1000:550",model="",icon="Common/ico_global_vault",},
+{ID=2002,coordinate="1000:750",model="",icon="Common/ico_global_vault",},
+{ID=2003,coordinate="1150:750",model="",icon="Common/ico_global_vault",},
+}

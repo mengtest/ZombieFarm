@@ -1,0 +1,691 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac3a584b11b0894fa3c2cecba70e12e, type: 3}
+  m_Name: Localization
+  m_EditorClassIdentifier: 
+  m_LocalizeText: {fileID: 4900000, guid: ee3ae474c8264314a8a24078e862b5bc, type: 3}
+  m_CustomTexts:
+  - key: ','
+    value: "\uFF0C"
+  - key: ':'
+    value: "\uFF1A"
+  - key: AddFriendPrerequisite
+    value: "\u9700\u4FEE\u7406\u4E1A\u4F59\u65E0\u7EBF\u7535\u540E\u53EF\u6DFB\u52A0\u597D\u53CB"
+  - key: AskOperation.GeneralAlert.btnCancel
+    value: "\u5173\u95ED"
+  - key: AskOperation.GeneralAlert.btnConfirm
+    value: "\u663E\u793A"
+  - key: AskOperation.GeneralAlert.fmtContent
+    value: '<size=24>%s</size>
+
+      <align="left"><size=20>%s</size></align="right">'
+  - key: AskOperation.GeneralAlert.title
+    value: "\u65B0\u4E8B\u4EF6"
+  - key: AskRequestClaimTitle
+    value: "\u8BF7\u6C42\u6350\u8D60"
+  - key: BeginWork
+    value: "\u5F00\u59CB\u5DE5\u4F5C"
+  - key: BuildHelpLog
+    value: "<size=24><color=#fcaa09><ROLE_NAME></color>\u5E2E\u52A9\u8FC7\u60A8\u7684<color=#fcaa09><Build_Id></color></size>"
+  - key: Build_Door
+    value: "\u95E8"
+  - key: Build_Exist
+    value: "\u5F53\u524D\u4F4D\u7F6E\u5DF2\u6709{0}"
+  - key: Build_Floor
+    value: "\u5730\u677F"
+  - key: Build_Wall
+    value: "\u5899\u58C1"
+  - key: Build_Window
+    value: "\u7A97\u6237"
+  - key: CantClickGuildBossAlert
+    value: "\u8BF7\u6CE8\u610F\u4F60\u7684\u8EAB\u4EFD\uFF0C\u4E0D\u8981\u5BF9\u6240\u957F\u65E0\u7406"
+  - key: ChanelEmpty
+    value: "\u67E5\u65E0\u6B64\u9891\u6BB5"
+  - key: ContactCustomerService
+    value: "\u8054\u7CFB\u5BA2\u670D"
+  - key: DeathByHunger
+    value: "\u6B7B\u56E0:\u9965\u6E34"
+  - key: DeathByHungerTitle
+    value: "\u4F60\u6B7B\u4E86"
+  - key: DeathByMonster
+    value: "\u6740\u4EBA\u8005:{0}"
+  - key: DeathByMonsterTitle
+    value: "\u4F60\u88AB\u6740\u6B7B\u4E86"
+  - key: DeathByOtherUser
+    value: "\u6740\u4EBA\u8005:{0}"
+  - key: DeathByOtherUserTitle
+    value: "\u4F60\u88AB\u6740\u6B7B\u4E86"
+  - key: DeathByStarve
+    value: "\u6B7B\u56E0:\u9965\u997F"
+  - key: DeathByStarveTitle
+    value: "\u4F60\u6B7B\u4E86"
+  - key: DeathByThirst
+    value: "\u6B7B\u56E0:\u7F3A\u6C34"
+  - key: DeathByThirstTitle
+    value: "\u4F60\u6B7B\u4E86"
+  - key: DeathByUnknown
+    value: ' '
+  - key: DeathByUnknownTitle
+    value: "\u4F60\u6B7B\u4E86"
+  - key: DeathByYourself
+    value: ' '
+  - key: DeathByYourselfTitle
+    value: "\u4F60\u81EA\u6740\u4E86"
+  - key: DissolveSomeoneElse
+    value: "\u8FD8\u6709\u5176\u4ED6\u73A9\u5BB6\uFF0C\u4E0D\u80FD\u89E3\u6563"
+  - key: DoneCount
+    value: "\u5DF2\u5B8C\u6210%d"
+  - key: EntranceNotOpen
+    value: "\u5173\u5361\u5C1A\u672A\u5F00\u542F"
+  - key: FAQ
+    value: "\u5E38\u89C1\u95EE\u9898"
+  - key: Facebook
+    value: Facebook
+  - key: GameCenter
+    value: GameCenter
+  - key: GooglePlus
+    value: GooglePlus
+  - key: GuildBoss
+    value: "\u907F\u96BE\u6240\u6240\u957F"
+  - key: GuildBuildLvUpLimit
+    value: "\u9700\u8981\u907F\u96BE\u6240\u7B49\u7EA7\u8FBE\u5230{0}\u7EA7"
+  - key: GuildBuildMaxLevel
+    value: "\u5DF2\u5347\u81F3\u6700\u9AD8\u7B49\u7EA7"
+  - key: GuildDefaultNotice
+    value: "\u6B22\u8FCE\u52A0\u5165\u907F\u96BE\u6240\uFF0C\u8FD9\u5C06\u662F\u6700\u540E\u7684\u5B81\u9759\u6E2F\u6E7E\uFF0C\u613F\u6211\u4EEC\u643A\u624B\u5171\u521B\u7F8E\u597D\u5BB6\u56ED\u3002"
+  - key: GuildDonateFormat
+    value: "\u4F60\u5DF2\u6210\u529F\u6350\u732E{0}x{1}"
+  - key: GuildDonateLvUpFormat
+    value: "{0}\u5DF2\u5347\u7EA7\u5230{1}\u7EA7"
+  - key: GuildEmptyNotice
+    value: "\u672A\u67E5\u627E\u5230\u8BE5\u9891\u6BB5\u53F7\u7684\u907F\u96BE\u6240\uFF0C\u8BF7\u6838\u5B9E\u540E\u518D\u884C\u641C\u7D22"
+  - key: GuildEnergyValue
+    value: "\u7535\u91CF:{0}"
+  - key: GuildExchange
+    value: "\u6350\u8D60"
+  - key: GuildExchangeLack
+    value: "\u7F3A\u6750\u6599"
+  - key: GuildExchangeOver
+    value: "\u6350\u6EE1\u4E86"
+  - key: GuildExchanged
+    value: "\u5DF2\u6350\u8D60"
+  - key: GuildLevel
+    value: "\u7B49\u7EA7:{0}"
+  - key: GuildNameEmpty
+    value: "\u6682\u672A\u52A0\u5165\u907F\u96BE\u6240"
+  - key: GuildNameFormat
+    value: "\u907F\u96BE\u6240#%s"
+  - key: GuildPositionInfomation
+    value: "1.\u65B0\u52A0\u5165\u7684\u6210\u5458\u5747\u4E3A\u201C\u8003\u6838\u671F\u201D\u6210\u5458\n2.\u5728\u52A0\u5165\u907F\u96BE\u6240\u540E\u4E09\u5929\u672A\u8FBE\u5230{0}\u70B9\u5468\u6D3B\u8DC3\u5EA6\u5C06\u4F1A\u88AB\u81EA\u52A8\u8E22\u51FA\u907F\u96BE\u6240\n3.\u5728\u52A0\u5165\u907F\u96BE\u6240\u540E\u4E09\u5929\u5185\u8D85\u8FC7{1}\u70B9\u8D21\u732E\u5EA6\u5C06\u4F1A\u5347\u804C\u4E3A\u201C\u6B63\u5F0F\u6210\u5458\u201D\n4.\u6BCF\u5468\u4F1A\u5C06\u672C\u5468\u8D21\u732E\u5EA6\u6700\u9AD8\u7684\u73A9\u5BB6\u8BC4\u4E3A\u201C\u526F\u6240\u957F\u201D\n5.\u201C\u526F\u6240\u957F\u201D\u53EF\u62E5\u6709\u66F4\u6539\u907F\u96BE\u6240\u516C\u544A\u7684\u6743\u5229\n6.\u8FDE\u7EED\u4E09\u5929\u672A\u767B\u5F55\u6E38\u620F\u6216\u5468\u8D21\u732E\u4F4E\u4E8E{2}\u7684\u201C\u6B63\u5F0F\u6210\u5458\u201D\u5C06\u4F1A\u88AB\u964D\u7EA7\u4E3A\u201C\u8003\u6838\u671F\u201D\u6210\u5458"
+  - key: GuildSearchKeyEmpty
+    value: "<color=#c5c5c5>\u9891\u6BB5\u952E\u5165</color>"
+  - key: GuildWorkBagSwitchCancelAlert
+    value: "\u70B9\u51FB\u201C\u786E\u8BA4\u201D\u540E\uFF0C\u5C06\u53D6\u6D88\u5236\u9020\u3002"
+  - key: GuildWorkBagSwitchCancelTitle
+    value: "\u53D6\u6D88\u5DE5\u4F5C"
+  - key: Guild_Invite
+    value: "{0}\u9080\u8BF7\u60A8\u52A0\u5165\u907F\u96BE\u6240\uFF0C\u8BE5\u907F\u96BE\u6240\u9891\u6BB5\u53F7\u4E3A\uFF1A{1}"
+  - key: HadSendApply
+    value: "\u5DF2\u53D1\u9001\u6DFB\u52A0\u7533\u8BF7"
+  - key: HadSendInvited
+    value: "\u5DF2\u53D1\u9001\u9080\u8BF7"
+  - key: HintInformation
+    value: "\u63D0\u793A\u4FE1\u606F"
+  - key: IllegalName.tooLong
+    value: "\u540D\u5B57\u592A\u957F\u4E86"
+  - key: IllegalName.tooShort
+    value: "\u540D\u5B57\u592A\u77ED\u4E86"
+  - key: IllegalName.unchanged
+    value: "\u540D\u5B57\u672A\u66F4\u6539"
+  - key: InviteToLocation
+    value: "{0}\u9080\u8BF7\u4F60\u524D\u5F80{1}"
+  - key: JoinGuildAlert
+    value: "\u70B9\u51FB\u786E\u8BA4\u540E\uFF0C\u5C06\u6210\u4E3A\u8BE5\u907F\u96BE\u6240\u7684\u8003\u6838\u6210\u5458\u3002\u662F\u5426\u9009\u62E9\u52A0\u5165\uFF1F"
+  - key: JoinGuildAlertTitle
+    value: "\u7533\u8BF7\u52A0\u5165\u907F\u96BE\u6240"
+  - key: LastCount
+    value: "\u5269\u4F59%d"
+  - key: LastPayCount
+    value: "\u4ECA\u65E5\u5269\u4F59\u8D2D\u4E70\u6B21\u6570\uFF1A%d"
+  - key: LeaveNeighborContent
+    value: "\u70B9\u51FB\u786E\u8BA4\u540E\u5C06\u9000\u51FA\u90BB\u5C45\u7684\u5BB6\uFF0C\u5728\u51B7\u5374\u65F6\u95F4\u4EE5\u524D\u65E0\u6CD5\u518D\u6B21\u8FDB\u5165"
+  - key: LeaveNeighborTitle
+    value: "\u9000\u51FA\u90BB\u5C45\u7684\u5BB6"
+  - key: LimiteTimeKickOut
+    value: "\u56E0\u672A\u57283\u5206\u949F\u5185\u62B5\u8FBE\u526F\u672C\u96C6\u5408\u70B9\uFF0C\u60A8\u5DF2\u88AB\u7CFB\u7EDF\u81EA\u52A8\u8E22\u51FA\u961F\u4F0D"
+  - key: LoginKgSdkWaiting
+    value: "\u6B63\u5728\u8FDE\u63A5\u5230\u6218\u573A..."
+  - key: NameAndLevel
+    value: "{0} \u7B49\u7EA7{1}"
+  - key: NoFuelRequired
+    value: "\u4E0D\u9700\u8981\u71C3\u6599"
+  - key: None
+    value: "\u65E0"
+  - key: NotImplemented
+    value: "\u672A\u5B9E\u73B0"
+  - key: OpenAIHelpAlert
+    value: "\u6CE8\u610F\uFF1A\u8BF7\u5728\u5B89\u5168\u7684\u533A\u57DF\u4F7F\u7528\u6E38\u620F\u5E2E\u52A9\u529F\u80FD\u3002"
+  - key: PayEnergyCntUpperLimit
+    value: "\u8D2D\u4E70\u4F53\u529B\u6B21\u6570\u5DF2\u8FBE\u4E0A\u9650"
+  - key: PayMBPassCntUpperLimit
+    value: "\u8D2D\u4E70\u95E8\u5361\u6B21\u6570\u5DF2\u8FBE\u4E0A\u9650"
+  - key: Processing_WorkComplete
+    value: "\u52A0\u5DE5\u5B8C\u6210"
+  - key: Processing_Working
+    value: "\u6B63\u5728\u52A0\u5DE5{0}\u2026\u2026"
+  - key: QuitGuildAlert
+    value: "\u786E\u5B9A\u8981\u9000\u51FA\u907F\u96BE\u6240\u5417\uFF1F\u9000\u51FA\u540E\u6709\u4E00\u6BB5\u65F6\u95F4\u65E0\u6CD5\u52A0\u5165\u5176\u4ED6\u907F\u96BE\u6240\u3002"
+  - key: QuitGuildAlertTitle
+    value: "\u9000\u51FA\u907F\u96BE\u6240"
+  - key: Receive
+    value: "\u9886\u53D6"
+  - key: Received
+    value: "\u5DF2\u9886\u53D6"
+  - key: RefreshGuildList.fmtReset
+    value: "\u5237\u65B0\u907F\u96BE\u6240\u5217\u8868"
+  - key: RefreshGuildList.reset
+    value: "\u5237\u65B0\u907F\u96BE\u6240\u5217\u8868"
+  - key: Relive
+    value: "\u590D\u6D3B"
+  - key: ReloginAlertContent
+    value: "\u70B9\u51FB\u786E\u5B9A\u91CD\u8FDE"
+  - key: ReloginAlertTitle
+    value: "\u767B\u9646\u5931\u8D25"
+  - key: Remove Black
+    value: "\u79FB\u9664\u9ED1\u540D\u5355"
+  - key: Remove Friend
+    value: "\u79FB\u9664\u597D\u53CB"
+  - key: RightMenu.AddBlack
+    value: "\u6DFB\u52A0\u9ED1\u540D\u5355"
+  - key: RightMenu.AddFriend
+    value: "\u6DFB\u52A0\u597D\u53CB"
+  - key: RightMenu.Guild_Invite
+    value: "\u907F\u96BE\u6240\u9080\u8BF7"
+  - key: RightMenu.Guild_KickOut
+    value: "\u8E22\u51FA\u907F\u96BE\u6240"
+  - key: RightMenu.InviteLocation
+    value: "\u9080\u8BF7\u81F3\u6240\u5728\u5730"
+  - key: RightMenu.PlayerInfo
+    value: "\u73A9\u5BB6\u4FE1\u606F"
+  - key: RightMenu.PrivateChat
+    value: "\u79C1\u804A"
+  - key: RightMenu.RemoveBlack
+    value: "\u79FB\u9664\u9ED1\u540D\u5355"
+  - key: RightMenu.RemoveFriend
+    value: "\u79FB\u9664\u597D\u53CB"
+  - key: RightMenu.ViewProfile
+    value: "\u67E5\u770B\u4FE1\u606F"
+  - key: S_Corpse
+    value: "\u5C38\u4F53"
+  - key: S_Inventory
+    value: "\u80CC\u5305"
+  - key: S_Processing
+    value: "\u52A0\u5DE5"
+  - key: S_Storage
+    value: "\u50A8\u7269\u7BB1"
+  - key: SelectServerContent
+    value: "\u4F60\u786E\u5B9A\u8981\u5207\u6362\u670D\u52A1\u5668\u5417\uFF1F"
+  - key: SelectServerTitle
+    value: "\u5207\u6362\u670D\u52A1\u5668"
+  - key: ServerStatus_Fast
+    value: "\u6D41\u7545"
+  - key: ServerStatus_Hot
+    value: "\u7206\u6EE1"
+  - key: ServerStatus_Preserve
+    value: "\u7EF4\u62A4"
+  - key: ServerStatus_Slow
+    value: "\u7E41\u5FD9"
+  - key: ShopLimit_GuildShopLevel
+    value: "\u81EA\u52A8\u8D29\u5356\u673ALv.{0}"
+  - key: ShopLimit_UserLevel
+    value: "\u73A9\u5BB6Lv.{0}"
+  - key: SocialAccountSwitchTitle
+    value: "\u5207\u6362\u793E\u4EA4\u8D26\u53F7"
+  - key: SocialBinded
+    value: "\u5DF2\u7ED1\u5B9A"
+  - key: SocialUnbind
+    value: "\u672A\u7ED1\u5B9A"
+  - key: SoldOut
+    value: "\u552E\u5B8C"
+  - key: StageCloseTime
+    value: "\u5173\u95ED\u65F6\u95F4"
+  - key: StageOpenTime
+    value: "\u4E0B\u6B21\u5F00\u542F\u65F6\u95F4"
+  - key: TaskFrontChapterUnfinish
+    value: "\u5B8C\u6210\u672C\u7AE0\u8282\u540E\u5F00\u542F\u4E0B\u4E00\u7AE0\u8282"
+  - key: TaskReward
+    value: "\u4EFB\u52A1\u5956\u52B1"
+  - key: TeamMemberKickOut
+    value: "\u60A8\u7684\u961F\u5458{0}\u672A\u57283\u5206\u949F\u5185\u8FBE\u5230\u526F\u672C\u4E0E\u961F\u4F0D\u6C47\u5408\uFF0C\u5DF2\u88AB\u7CFB\u7EDF\u81EA\u52A8\u8E22\u51FA"
+  - key: Title_Guild
+    value: "\u907F\u96BE\u6240"
+  - key: Title_Guild_Finder
+    value: "\u9891\u6BB5\u641C\u7D22"
+  - key: Undefined
+    value: "\u672A\u5B9A\u4E49"
+  - key: UnknowLogoff
+    value: "\u7F51\u7EDC\u8FDE\u63A5\u5DF2\u65AD\u5F00"
+  - key: VK
+    value: VK
+  - key: WeaponReload.BulletClip
+    value: <color=#C44F01FF>%d</color>/%d
+  - key: WeaponReload.Reload
+    value: "\u88C5\u586B"
+  - key: Wechat
+    value: "\u5FAE\u4FE1"
+  - key: WhosHome
+    value: "%s\u7684\u5BB6"
+  - key: YouHaveDied
+    value: "\u4F60\u5DF2\u7ECF\u6B7B\u4E86"
+  - key: account.ask_logout
+    value: "\u786E\u8BA4\u8981\u767B\u51FA\u5417\uFF1F\n\uFF08\u767B\u51FA\u540E\u5C06\u8FD4\u56DE\u5230\u767B\u5F55\u754C\u9762\uFF09"
+  - key: account.being_ban
+    value: "\u5E10\u53F7\u5DF2\u88AB\u51BB\u7ED3"
+  - key: account.kick_off
+    value: "\u5F3A\u5236\u79BB\u7EBF"
+  - key: account.logout
+    value: "\u767B\u51FA"
+  - key: account.no_service
+    value: "\u670D\u52A1\u5668\u7EF4\u62A4"
+  - key: account.other_login
+    value: "\u5DF2\u5728\u5176\u4ED6\u8BBE\u5907\u4E0A\u767B\u5F55"
+  - key: allow
+    value: "\u5141\u8BB8"
+  - key: alltabs
+    value: "\u6240\u6709"
+  - key: askCancelWork
+    value: "\u8981\u53D6\u6D88\u4F5C\u4E1A\u5417\uFF1F"
+  - key: askChangeLang
+    value: "\u5207\u6362\u8BED\u8A00\u4F1A\u91CD\u65B0\u767B\u5F55\uFF0C\u662F\u5426\u7EE7\u7EED\uFF1F"
+  - key: askQuitApp
+    value: "\u662F\u5426\u8981\u9000\u51FA\u6E38\u620F\uFF1F"
+  - key: asset_complete
+    value: "\u5F53\u524D\u5730\u56FE\u5DF2\u51C6\u5907\u5C31\u7EEA\uFF0C\u5173\u95ED\u5F39\u7A97\u540E\u53EF\u6B63\u5E38\u6E38\u620F "
+  - key: attr.attack
+    value: "\u653B\u51FB"
+  - key: attr.def
+    value: "\u9632\u5FA1"
+  - key: attr.fast
+    value: "\u653B\u901F"
+  - key: attr.move
+    value: "\u79FB\u901F"
+  - key: building.ask_destroy_building
+    value: "\u786E\u8BA4\u8981\u62C6\u9664\u6B64\u5EFA\u7B51\u5417\uFF1F"
+  - key: building.destroy
+    value: "\u62C6\u9664"
+  - key: building.destroy_building
+    value: "\u62C6\u9664\u5EFA\u7B51"
+  - key: building.err_level_low
+    value: "\u7B49\u7EA7\u592A\u4F4E"
+  - key: building.err_maximum_amount
+    value: "\u8BE5\u5EFA\u7B51\u5DF2\u8FBE\u5230\u5EFA\u9020\u4E0A\u9650"
+  - key: building.err_need_floor_edge
+    value: "\u53EA\u80FD\u5EFA\u5728\u5730\u677F\u8FB9\u7F18"
+  - key: building.err_no_material
+    value: "\u6750\u6599\u4E0D\u8DB3"
+  - key: building.err_place_blocked
+    value: "\u8BE5\u4F4D\u7F6E\u88AB\u963B\u6321\u4E86"
+  - key: building.err_place_occupied
+    value: "\u8BE5\u4F4D\u7F6E\u5DF2\u6709\u5176\u4ED6\u5EFA\u7B51"
+  - key: building.err_wall_occupied
+    value: "\u8BE5\u4F4D\u7F6E\u88AB\u5899\u58C1\u9694\u5F00\u4E86"
+  - key: building.v.repair
+    value: "\u4FEE\u590D"
+  - key: building.warn_destroy_building
+    value: "\u8B66\u544A\uFF1A\u4F60\u6B63\u5728\u62C6\u9664\u6B64\u5EFA\u7B51\uFF01\n\u662F\u5426\u786E\u8BA4\uFF1F"
+  - key: buymbpass.fmtpay
+    value: "\u8D2D\u4E70%s"
+  - key: buymbpass.title
+    value: "\u8D2D\u4E70\u95E8\u5361"
+  - key: canEditText
+    value: "\u5F00\u59CB\u5DE5\u4F5C"
+  - key: chat.apply
+    value: "\u7533\u8BF7"
+  - key: chat.applyList
+    value: "\u7533\u8BF7\u5217\u8868"
+  - key: chat.blacklist
+    value: "\u9ED1\u540D\u5355"
+  - key: chat.ch_guild
+    value: "\u907F\u96BE\u6240"
+  - key: chat.ch_nearby
+    value: "\u9644\u8FD1"
+  - key: chat.ch_private
+    value: "\u79C1\u804A"
+  - key: chat.ch_team
+    value: "\u961F\u4F0D"
+  - key: chat.ch_world
+    value: "\u4E16\u754C"
+  - key: chat.friend
+    value: "\u597D\u53CB"
+  - key: chat.guildmember
+    value: "\u907F\u96BE\u6240\u6210\u5458"
+  - key: chat.input_holder
+    value: "\u8F93\u5165\u6587\u672C"
+  - key: chat.maillist
+    value: "\u901A\u8BAF\u5F55"
+  - key: chat.noselect
+    value: "\u672A\u9009"
+  - key: chat.search
+    value: "\u641C\u7D22"
+  - key: chat.stranger
+    value: "\u964C\u751F\u4EBA"
+  - key: chat.teammate
+    value: "\u961F\u53CB"
+  - key: contentGuildMemberMax
+    value: "\u5F53\u524D\u907F\u96BE\u6240\u5DF2\u6EE1\u5458\uFF0C\u5173\u95ED\u754C\u9762\u540E\u5C06\u4F1A\u7ED9\u60A8\u63A8\u9001\u4E00\u4E2A\u65B0\u7684\u907F\u96BE\u6240\u3002"
+  - key: copyOk
+    value: "\u5DF2\u590D\u5236\u5230\u526A\u5207\u677F"
+  - key: delete
+    value: "\u5220\u9664"
+  - key: downloading
+    value: "\u4E0B\u8F7D\u4E2D..."
+  - key: energy.fmtReset
+    value: "\u8D2D\u4E70%d\u4F53\u529B"
+  - key: energy.reset
+    value: "\u8D2D\u4E70\u4F53\u529B"
+  - key: fmtAchieveBuilding
+    value: "\u9700\u8981\u5EFA\u7B51\uFF1A%s"
+  - key: fmtAskConsumeCost
+    value: "\u662F\u5426\u6D88\u8017%d<color=%s>%s</color>%s?"
+  - key: fmtAskRequestClaim
+    value: "\u70B9\u51FB\"\u786E\u8BA4\"\u540E\u5C06\u5411\u907F\u96BE\u6240\u5176\u4ED6\u6210\u5458\u8BF7\u6C42{0}\u4E2A{1}\u3002"
+  - key: fmtAssetDownloading
+    value: "\u5F53\u524D\u8D44\u6E90\u6B63\u5728\u4E0B\u8F7D\u4E2D\uFF0C\u5DF2\u5B8C\u6210{0}\uFF0C\n\u6682\u65F6\u65E0\u6CD5\u524D\u5F80\u8BE5\u5730\u56FE"
+  - key: fmtAssetUnpacking
+    value: "\u5F53\u524D\u8D44\u6E90\u6B63\u5728\u89E3\u538B\u7F29\u4E2D\uFF0C\u5DF2\u5B8C\u6210{0}\uFF0C\n\u6682\u65F6\u65E0\u6CD5\u524D\u5F80\u8BE5\u5730\u56FE"
+  - key: fmtBuildingGroupLimit
+    value: '%s: %s/%d'
+  - key: fmtBuildingGroupNextLimit
+    value: "\u7B49\u7EA7\u8FBE\u5230%d\u540E\u4E0A\u9650\u63D0\u5347\u81F3%d"
+  - key: fmtBuildingUpgradeLimit
+    value: "\u7B49\u7EA7\u8FBE\u5230%d\u540E\u53EF\u5347\u7EA7"
+  - key: fmtChatMsg
+    value: <color=%s>%s:</color>%s
+  - key: fmtClanInfo.IdLv
+    value: ID:%d  LV:%d
+  - key: fmtClanInfo.Members
+    value: "\u6210\u5458\uFF1A%d/%d"
+  - key: fmtCnt_Adequate
+    value: '%d/%d'
+  - key: fmtCnt_Inadequate
+    value: <color=red>%d</color>/%d
+  - key: fmtContact
+    value: '%s
+
+      %s'
+  - key: fmtDownloadException
+    value: "\u4E0B\u8F7D\u51FA\u73B0\u5F02\u5E38"
+  - key: fmtExpire_Day
+    value: "%s\u5929\u540E\u5931\u6548"
+  - key: fmtGuildDonate.addConribution
+    value: +%d
+  - key: fmtGuildDonate.addExp
+    value: "\u5EFA\u7B51\u7ECF\u9A8C<color=#34c837>+%d</color>"
+  - key: fmtItemBroken
+    value: "{0}\u5DF2\u635F\u574F"
+  - key: fmtLevel
+    value: "\u7B49\u7EA7{0}"
+  - key: fmtLevelReq
+    value: "<color=red>\u9700\u8981\u7B49\u7EA7{0}</color>"
+  - key: fmtLiveTime
+    value: "\u751F\u5B58\u65F6\u957F: {0}"
+  - key: fmtLostItem
+    value: "\u80CC\u5305\u653E\u4E0D\u4E0B{1}({0})"
+  - key: fmtLv
+    value: "\u7B49\u7EA7%d"
+  - key: fmtNotEnoughItem
+    value: "\u6CA1\u6709\u8DB3\u591F\u7684%s"
+  - key: fmtObtainItem
+    value: +{0} {1}
+  - key: fmtOffline
+    value: "%s\u4E4B\u524D"
+  - key: fmtRefreshStage
+    value: "\u662F\u5426\u4F7F\u7528 {0}\u4E2A{1} \u91CD\u7F6E\u672C\u6B21\u526F\u672C\u5730\u56FE\uFF0C\u91CD\u7F6E\u540E\u5C06\u65E0\u6CD5\u83B7\u5F97\u672A\u653E\u5165\u80CC\u5305\u7684\u7269\u54C1\uFF0C\u6240\u6709\u654C\u4EBA\u4E0E\u5B9D\u7BB1\u5C06\u4F1A\u91CD\u7F6E\u5E76\u4E8E{2}\u79D2\u540E\u5C06\u60A8\u9001\u81F3\u5730\u56FE\u5916\u3002"
+  - key: fmtRemainingTime
+    value: "\u5269\u4F59\u65F6\u95F4\n%s"
+  - key: fmtReqEmptyFloor
+    value: "\u9700\u8981%d\u7EA7\u5730\u677F"
+  - key: fmtRequireFloor
+    value: "\u9700\u8981: %s(\u7B49\u7EA7%d)"
+  - key: fmtResiduesCnt
+    value: "\u5269\u4F59\u6B21\u6570:{0}/{1}"
+  - key: fmtServerName
+    value: "\u670D\u52A1\u5668:%s"
+  - key: fmtServerTab
+    value: S%d-S%d
+  - key: fmtShopAsset
+    value: "\u5F53\u524D{0}\uFF1A"
+  - key: fmtUnknownError
+    value: "\u672A\u77E5\u9519\u8BEF[#{0}]"
+  - key: fmtWARNING
+    value: "\u8B66\u544A:%s"
+  - key: fmtWeather
+    value: "<allcaps>\u5929\u6C14</allcaps>:<space=9em>%d<sup>o</sup>F"
+  - key: fmtWhisperMsg
+    value: "<color=%s>\u53D1\u9001\u7ED9%s</color>:%s"
+  - key: forbid
+    value: "\u7981\u6B62"
+  - key: free4ThisTime
+    value: "\u672C\u6B21\u514D\u8D39"
+  - key: fuelNotEnoughText
+    value: "\u71C3\u6599\u4E0D\u8DB3"
+  - key: globalMap
+    value: "\u4E16\u754C\u5730\u56FE"
+  - key: guild.cancel_quit
+    value: "\u53D6\u6D88\u9000\u51FA\u907F\u96BE\u6240"
+  - key: guild.quit
+    value: "\u9000\u51FA"
+  - key: guild.quit_guild
+    value: "\u9000\u51FA\u907F\u96BE\u6240"
+  - key: guildChanelID
+    value: "\u9891\u6BB5\u53F7:{0}"
+  - key: item.ask_delete_item
+    value: "\u662F\u5426\u8981\u5220\u9664\u6B64\u9053\u5177"
+  - key: item.delete_item
+    value: "\u5220\u9664\u9053\u5177"
+  - key: item.sort_out
+    value: "\u4E00\u952E\u6574\u7406"
+  - key: levelup
+    value: "\u5347\u7EA7\u5566\uFF01"
+  - key: mail
+    value: "\u90AE\u4EF6"
+  - key: mail.ask_delete_all_read
+    value: "\u6B63\u8981\u5220\u9664\u6240\u6709\u5DF2\u8BFB\u90AE\u4EF6\u3002\n\u662F\u5426\u7EE7\u7EED\uFF1F"
+  - key: mail.ask_receive_all
+    value: "\u9886\u53D6\u6240\u6709\u643A\u5E26\u4E86\u9644\u4EF6\u7684\u90AE\u4EF6\u3002\n\u6CE8\u610F\uFF1A\u9886\u53D6\u9644\u4EF6\u540E\uFF0C\u90AE\u4EF6\u5C06\u81EA\u52A8\u5220\u9664\u3002\n\u8981\u7EE7\u7EED\u5417\uFF1F"
+  - key: mail.delete_read
+    value: "\u5220\u9664\u5DF2\u8BFB\u90AE\u4EF6"
+  - key: mail.receive_all
+    value: "\u9886\u53D6\u6240\u6709\u9644\u4EF6"
+  - key: n.chat
+    value: "\u804A\u5929"
+  - key: n.craft
+    value: "\u5DE5\u827A"
+  - key: nameAmmo
+    value: "\u5F39\u5939"
+  - key: nameDura
+    value: "\u8010\u4E45"
+  - key: nameRequire
+    value: "\u9700\u8981"
+  - key: no
+    value: "\u5426"
+  - key: online
+    value: "\u5728\u7EBF"
+  - key: options
+    value: "\u9009\u9879"
+  - key: play.fighting
+    value: "\u5BF9\u6297"
+  - key: play.single
+    value: "\u5355\u4EBA"
+  - key: play.team
+    value: "\u7EC4\u961F"
+  - key: player.say_dirty
+    value: "\u6211\u810F\u4E86"
+  - key: player.say_hungry
+    value: "\u6211\u997F\u4E86"
+  - key: player.say_thirsty
+    value: "\u6211\u6E34\u4E86"
+  - key: quickReply
+    value: "\u5FEB\u901F\u56DE\u590D"
+  - key: rename.change_your_name
+    value: "\u66F4\u6539\u4F60\u7684\u540D\u5B57"
+  - key: rename.first_time_tips
+    value: "\u672C\u6B21\u6539\u540D\u514D\u8D39"
+  - key: server.flag_hot
+    value: "\u7206\u6EE1"
+  - key: server.flag_new
+    value: "\u65B0\u670D"
+  - key: server.has_role
+    value: "\u5DF2\u521B\u89D2"
+  - key: server.recommend
+    value: "\u63A8\u8350"
+  - key: settings.base
+    value: "\u57FA\u7840"
+  - key: settings.operation
+    value: "\u64CD\u4F5C"
+  - key: settings.others
+    value: "\u5176\u4ED6"
+  - key: takeIt
+    value: "\u62FF\u7740"
+  - key: team.accept
+    value: "\u63A5\u53D7"
+  - key: team.arrive_before_getready
+    value: "\u9700\u8981\u5230\u8FBE\u5173\u5361\u6240\u5728\u5730\u624D\u80FD\u5F00\u59CB\u6218\u6597"
+  - key: team.ask_leave_team
+    value: "\u79BB\u5F00\u961F\u4F0D\u540E\uFF0C\u4F60\u5C06\u4E0D\u80FD\u8FD4\u56DE\u672C\u623F\u95F4\u3002\n\u662F\u5426\u7EE7\u7EED\uFF1F"
+  - key: team.fmt_holdon
+    value: "{0}\u9700\u8981\u51C6\u5907{1}\u5206\u949F\uFF0C\u7A0D\u5019\u7247\u523B\u786E\u5B9A\u662F\u5426\u52A0\u5165\u961F\u4F0D"
+  - key: team.fmt_invitation
+    value: "{0}\u9080\u8BF7\u4F60\u524D\u5F80{1}\uFF0C\u8BE5\u5730\u56FE\u526F\u672C\u9700\u8981\u4F7F\u7528{2}\u624D\u80FD\u8FDB\u5165"
+  - key: team.fmt_kick_member
+    value: "<color=green>{0}</color> \u5C06\u4F1A\u88AB\u8E22\u51FA\u961F\u4F0D\u3002\n\u662F\u5426\u7EE7\u7EED\uFF1F"
+  - key: team.fmt_new_cap
+    value: "<color=green>{0}</color> \u5C06\u4F1A\u6210\u4E3A\u65B0\u961F\u957F\u3002\n\u662F\u5426\u7EE7\u7EED\uFF1F"
+  - key: team.fmt_refuse
+    value: "{0} \u5F53\u524D\u6682\u65F6\u4E0D\u65B9\u4FBF\uFF0C\u5DF2\u62D2\u7EDD\u60A8\u7684\u9080\u8BF7"
+  - key: team.invitation
+    value: "\u7EC4\u961F\u9080\u8BF7"
+  - key: team.kick
+    value: "\u8E22\u51FA\u961F\u4F0D"
+  - key: team.leave_team
+    value: "\u79BB\u5F00\u961F\u4F0D"
+  - key: team.match
+    value: "\u961F\u4F0D\u5339\u914D"
+  - key: team.player_idle
+    value: "\u53EF\u9080\u8BF7"
+  - key: team.player_invited
+    value: "\u5DF2\u9080\u8BF7"
+  - key: team.player_refused
+    value: "\u5DF2\u62D2\u7EDD"
+  - key: team.please_wait
+    value: "\u8BF7\u7A0D\u7B49"
+  - key: team.promote
+    value: "\u8F6C\u8BA9\u961F\u957F"
+  - key: team.ready
+    value: "\u51C6\u5907"
+  - key: team.recently
+    value: "\u6700\u8FD1"
+  - key: team.refuse
+    value: "\u62D2\u7EDD"
+  - key: team.start
+    value: "\u5F00\u59CB"
+  - key: team.unmatch
+    value: "\u53D6\u6D88\u5339\u914D"
+  - key: team.unready
+    value: "\u53D6\u6D88\u51C6\u5907"
+  - key: time.day
+    value: "\u5929"
+  - key: time.fmtLess
+    value: < 1 {0}
+  - key: time.hour
+    value: "\u5C0F\u65F6"
+  - key: time.min
+    value: "\u5206"
+  - key: time.sec
+    value: "\u79D2"
+  - key: tipAutoEnterStageTeam
+    value: "\u5012\u8BA1\u65F6\u7ED3\u675F\u540E\uFF0C\u6240\u6709\u5230\u8FBE\u5730\u56FE\u5165\u53E3\u7684\u961F\u4F0D\u6210\u5458\u81EA\u52A8\u8FDB\u5165\u5730\u56FE"
+  - key: tipConnectFailure
+    value: "\u8FDE\u63A5\u5931\u8D25"
+  - key: tipConnectTimeout
+    value: "\u8FDE\u63A5\u8D85\u65F6"
+  - key: tipConnecting
+    value: "\u6B63\u5728\u8FDE\u63A5"
+  - key: tipDropGame
+    value: "\u79BB\u7EBF\u901A\u77E5"
+  - key: tipEntranceUnreachable
+    value: "\u65E0\u6CD5\u5230\u8FBE"
+  - key: tipExitAutoPlayNoPath
+    value: "\u76EE\u6807\u4F4D\u7F6E\u65E0\u6CD5\u5230\u8FBE"
+  - key: tipExitAutoPlayNoRes
+    value: "\u5DF2\u7ECF\u6CA1\u6709\u8D44\u6E90\u8981\u6536\u96C6\u4E86"
+  - key: tipInventoryFull
+    value: "\u80CC\u5305\u5DF2\u6EE1"
+  - key: tipInventoryUnsel
+    value: "\u9009\u4E2D\u4E00\u4E2A\u9053\u5177\u6765\u67E5\u770B\u8BE6\u7EC6\u4FE1\u606F"
+  - key: tipLeaveTeam2Move
+    value: "\u524D\u5F80\u8BE5\u5730\u56FE\u5C06\u9000\u51FA\u961F\u4F0D"
+  - key: tipRecordingTimeShort
+    value: "\u5F55\u97F3\u65F6\u95F4\u4E0D\u80FD\u5C11\u4E8E1\u79D2"
+  - key: tipReqEmptyGround
+    value: "\u9700\u8981\u7A7A\u5730"
+  - key: tipRetryPatch
+    value: "\u91CD\u8BD5"
+  - key: tipSendEmptyMsg
+    value: "\u65E0\u6CD5\u53D1\u9001\u7A7A\u6D88\u606F"
+  - key: tipSendToNobody
+    value: "\u9700\u8981\u4E00\u4E2A\u53D1\u9001\u5BF9\u8C61"
+  - key: titleGuildMemberMax
+    value: "\u4EBA\u6570\u5DF2\u6EE1"
+  - key: title_ModifyGuildNotice
+    value: "\u4FEE\u6539\u516C\u544A"
+  - key: travel.drive
+    value: "\u9A7E\u9A76"
+  - key: travel.run
+    value: "\u5954\u8DD1"
+  - key: travel.rush_destination
+    value: "\u76F4\u8FBE\u7EC8\u70B9"
+  - key: travel.turn_around
+    value: "\u8FD4\u56DE\u8D77\u70B9"
+  - key: travel.walk
+    value: "\u6B65\u884C"
+  - key: unkown
+    value: "\u672A\u77E5"
+  - key: unpacking
+    value: "\u89E3\u538B\u4E2D..."
+  - key: v.agree
+    value: "\u540C\u610F"
+  - key: v.build
+    value: "\u5EFA\u9020"
+  - key: v.cancel
+    value: "\u53D6\u6D88"
+  - key: v.confirm
+    value: "\u786E\u8BA4"
+  - key: v.craft
+    value: "\u5236\u4F5C"
+  - key: v.ignore
+    value: "\u5FFD\u7565"
+  - key: v.upgrade
+    value: "\u5347\u7EA7"
+  - key: ver.fmt_lower
+    value: "\u60A8\u7684\u6E38\u620F\u7248\u672C\u8FC7\u4F4E\uFF0C\n\u8BF7\u4E0B\u8F7D\u65B0\u7248\u672C{0}"
+  - key: ver.force_update
+    value: "\uFF08\u672C\u6B21\u66F4\u65B0\u4E3A\u5F3A\u5236\u66F4\u65B0\uFF0C\u70B9\u51FB\u53D6\u6D88\u5C06\u5173\u95ED\u6E38\u620F\u5BA2\u6237\u7AEF\uFF09"
+  - key: ver.new_update
+    value: "\u53D1\u73B0\u65B0\u7248\u672C\uFF0C\u662F\u5426\u8981\u66F4\u65B0\uFF1F"
+  - key: ver.recommend_update
+    value: "\uFF08\u672C\u6B21\u66F4\u65B0\u4E3A\u975E\u5F3A\u5236\u66F4\u65B0\uFF0C\u70B9\u51FB\u53D6\u6D88\u5C06\u8DF3\u8FC7\u66F4\u65B0\u76F4\u63A5\u5F00\u59CB\u6E38\u620F\uFF09"
+  - key: working.finish
+    value: "\u5B8C\u6210\u4F5C\u4E1A"
+  - key: working.hasten_finish
+    value: "\u7ACB\u5373\u5B8C\u6210"
+  - key: yes
+    value: "\u662F"

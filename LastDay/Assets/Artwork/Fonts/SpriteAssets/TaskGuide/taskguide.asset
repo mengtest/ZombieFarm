@@ -1,0 +1,1662 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+  m_Name: taskguide
+  m_EditorClassIdentifier: 
+  hashCode: 797375319
+  material: {fileID: 21663818814402282}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: 9f07c25e468d99d4e9f8334b45db0396, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 2
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50001
+    hashCode: -1734995181
+    unicode: 1911881729
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 1
+    x: 54
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50002
+    hashCode: -1734995184
+    unicode: 1911881730
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 2
+    x: 106
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50003
+    hashCode: -1734995183
+    unicode: 1911881731
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 3
+    x: 158
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50101
+    hashCode: -1734996206
+    unicode: 1911881985
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 4
+    x: 210
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50102
+    hashCode: -1734996207
+    unicode: 1911881986
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 5
+    x: 262
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50103
+    hashCode: -1734996208
+    unicode: 1911881987
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 6
+    x: 314
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50201
+    hashCode: -1734997359
+    unicode: 1911882241
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 7
+    x: 366
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50202
+    hashCode: -1734997358
+    unicode: 1911882242
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 8
+    x: 418
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50203
+    hashCode: -1734997357
+    unicode: 1911882243
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 9
+    x: 470
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50301
+    hashCode: -1734998384
+    unicode: 1911882497
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 10
+    x: 522
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50302
+    hashCode: -1734998381
+    unicode: 1911882498
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 11
+    x: 574
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@50303
+    hashCode: -1734998382
+    unicode: 1911882499
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 12
+    x: 626
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51001
+    hashCode: -1734889486
+    unicode: 1911885825
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 13
+    x: 678
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51002
+    hashCode: -1734889487
+    unicode: 1911885826
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 14
+    x: 730
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51003
+    hashCode: -1734889488
+    unicode: 1911885827
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 15
+    x: 782
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51004
+    hashCode: -1734889481
+    unicode: 1911885828
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 16
+    x: 834
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51005
+    hashCode: -1734889482
+    unicode: 1911885829
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 17
+    x: 886
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51006
+    hashCode: -1734889483
+    unicode: 1911885830
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 18
+    x: 938
+    y: 460
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51007
+    hashCode: -1734889484
+    unicode: 1911885831
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 19
+    x: 2
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51008
+    hashCode: -1734889477
+    unicode: 1911885832
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 20
+    x: 54
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51009
+    hashCode: -1734889478
+    unicode: 1911885833
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 21
+    x: 106
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51010
+    hashCode: -1734889582
+    unicode: 1911885840
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 22
+    x: 158
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51011
+    hashCode: -1734889581
+    unicode: 1911885841
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 23
+    x: 210
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51012
+    hashCode: -1734889584
+    unicode: 1911885842
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 24
+    x: 262
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51013
+    hashCode: -1734889583
+    unicode: 1911885843
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 25
+    x: 314
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51014
+    hashCode: -1734889578
+    unicode: 1911885844
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 26
+    x: 366
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51015
+    hashCode: -1734889577
+    unicode: 1911885845
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 27
+    x: 418
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51016
+    hashCode: -1734889580
+    unicode: 1911885846
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 28
+    x: 470
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51017
+    hashCode: -1734889579
+    unicode: 1911885847
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 29
+    x: 522
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@51020
+    hashCode: -1734889551
+    unicode: 1911885856
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 30
+    x: 574
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@52001
+    hashCode: -1735067055
+    unicode: 1911889921
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 31
+    x: 626
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@52002
+    hashCode: -1735067054
+    unicode: 1911889922
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 32
+    x: 678
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@52003
+    hashCode: -1735067053
+    unicode: 1911889923
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 33
+    x: 730
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@52004
+    hashCode: -1735067052
+    unicode: 1911889924
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 34
+    x: 782
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@55101
+    hashCode: -1734748937
+    unicode: 1911902465
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 35
+    x: 834
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@55102
+    hashCode: -1734748940
+    unicode: 1911902466
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 36
+    x: 886
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@55103
+    hashCode: -1734748939
+    unicode: 1911902467
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 37
+    x: 938
+    y: 408
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: Building1@55201
+    hashCode: -1734747916
+    unicode: 1911902721
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 38
+    x: 2
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: btn_build_008
+    hashCode: -1333725802
+    unicode: 2147348488
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 39
+    x: 54
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: ico_main_001
+    hashCode: -1071029825
+    unicode: 2063593473
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 40
+    x: 106
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: ico_main_022
+    hashCode: -1071029890
+    unicode: 2063593506
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 41
+    x: 158
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: ico_main_023
+    hashCode: -1071029889
+    unicode: 2063593507
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 42
+    x: 210
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: ico_main_024
+    hashCode: -1071029896
+    unicode: 2063593508
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 43
+    x: 262
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: ico_main_043
+    hashCode: -1071029959
+    unicode: 2063593539
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 44
+    x: 314
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: ico_main_048
+    hashCode: -1071029966
+    unicode: 2063593544
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 45
+    x: 366
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: ico_main_061
+    hashCode: -1071030023
+    unicode: 2063593569
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 46
+    x: 418
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@10001
+    hashCode: 1870380916
+    unicode: -235864063
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 47
+    x: 470
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@10006
+    hashCode: 1870380915
+    unicode: -235864058
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 48
+    x: 522
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@101
+    hashCode: 1200679924
+    unicode: 2129785089
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 49
+    x: 574
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@102
+    hashCode: 1200679927
+    unicode: 2129785090
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 50
+    x: 626
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@103
+    hashCode: 1200679926
+    unicode: 2129785091
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 51
+    x: 678
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@11001
+    hashCode: 1870275221
+    unicode: -235859967
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 52
+    x: 730
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@1101
+    hashCode: 967728677
+    unicode: -283176703
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 53
+    x: 782
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@1102
+    hashCode: 967728678
+    unicode: -283176702
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 54
+    x: 834
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@111
+    hashCode: 1200679829
+    unicode: 2129785105
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 55
+    x: 886
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@112
+    hashCode: 1200679830
+    unicode: 2129785106
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 56
+    x: 938
+    y: 356
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@113
+    hashCode: 1200679831
+    unicode: 2129785107
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 57
+    x: 2
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@1210
+    hashCode: 967733958
+    unicode: -283176432
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 58
+    x: 54
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@1211
+    hashCode: 967733959
+    unicode: -283176431
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 59
+    x: 106
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@1218
+    hashCode: 967733966
+    unicode: -283176424
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 60
+    x: 158
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@122
+    hashCode: 1200679989
+    unicode: 2129785122
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 61
+    x: 210
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@13001
+    hashCode: 1870347095
+    unicode: -235851775
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 62
+    x: 262
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@13004
+    hashCode: 1870347090
+    unicode: -235851772
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 63
+    x: 314
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@15001
+    hashCode: 1870131473
+    unicode: -235843583
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 64
+    x: 366
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@15002
+    hashCode: 1870131474
+    unicode: -235843582
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 65
+    x: 418
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@2001
+    hashCode: 967698055
+    unicode: -283172863
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 66
+    x: 470
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@20101
+    hashCode: 1869267958
+    unicode: -235798271
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 67
+    x: 522
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@20201
+    hashCode: 1869262581
+    unicode: -235798015
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 68
+    x: 574
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@20506
+    hashCode: 1869263605
+    unicode: -235797242
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 69
+    x: 626
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@20603
+    hashCode: 1869258227
+    unicode: -235796989
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 70
+    x: 678
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@20901
+    hashCode: 1869276670
+    unicode: -235796223
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 71
+    x: 730
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@20904
+    hashCode: 1869276667
+    unicode: -235796220
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 72
+    x: 782
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@2101
+    hashCode: 967697030
+    unicode: -283172607
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 73
+    x: 834
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@21201
+    hashCode: 1869228756
+    unicode: -235793919
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 74
+    x: 886
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@21501
+    hashCode: 1869227603
+    unicode: -235793151
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 75
+    x: 938
+    y: 304
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@21603
+    hashCode: 1869224402
+    unicode: -235792893
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 76
+    x: 2
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@21701
+    hashCode: 1869225425
+    unicode: -235792639
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 77
+    x: 54
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@5001
+    hashCode: 967588128
+    unicode: -283160575
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 78
+    x: 106
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@5002
+    hashCode: 967588131
+    unicode: -283160574
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 79
+    x: 158
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@5003
+    hashCode: 967588130
+    unicode: -283160573
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 80
+    x: 210
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@5004
+    hashCode: 967588133
+    unicode: -283160572
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 81
+    x: 262
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@6001
+    hashCode: 967554307
+    unicode: -283156479
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 82
+    x: 314
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@6002
+    hashCode: 967554304
+    unicode: -283156478
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 83
+    x: 366
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@6003
+    hashCode: 967554305
+    unicode: -283156477
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 84
+    x: 418
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@6004
+    hashCode: 967554310
+    unicode: -283156476
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 85
+    x: 470
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@601
+    hashCode: 1200674547
+    unicode: 2129786369
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 86
+    x: 522
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@7001
+    hashCode: 967660002
+    unicode: -283152383
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 87
+    x: 574
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@7002
+    hashCode: 967660001
+    unicode: -283152382
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 88
+    x: 626
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@7003
+    hashCode: 967660000
+    unicode: -283152381
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 89
+    x: 678
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@7004
+    hashCode: 967660007
+    unicode: -283152380
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 90
+    x: 730
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@8001
+    hashCode: 967913677
+    unicode: -283148287
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 91
+    x: 782
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@8002
+    hashCode: 967913678
+    unicode: -283148286
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 92
+    x: 834
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@8003
+    hashCode: 967913679
+    unicode: -283148285
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 93
+    x: 886
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@8004
+    hashCode: 967913672
+    unicode: -283148284
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 94
+    x: 938
+    y: 252
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@9001
+    hashCode: 968019372
+    unicode: -283144191
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 95
+    x: 2
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@9002
+    hashCode: 968019375
+    unicode: -283144190
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 96
+    x: 54
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@9003
+    hashCode: 968019374
+    unicode: -283144189
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 97
+    x: 106
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@901
+    hashCode: 1200688636
+    unicode: 2129787137
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 98
+    x: 158
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: item1@902
+    hashCode: 1200688639
+    unicode: 2129787138
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 99
+    x: 210
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@10001
+    hashCode: 1649192948
+    unicode: 1911619585
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 100
+    x: 262
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@10002
+    hashCode: 1649192951
+    unicode: 1911619586
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 101
+    x: 314
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@10003
+    hashCode: 1649192950
+    unicode: 1911619587
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 102
+    x: 366
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@10007
+    hashCode: 1649192946
+    unicode: 1911619591
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 103
+    x: 418
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@1001
+    hashCode: -1511830748
+    unicode: 1327435777
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 104
+    x: 470
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@10011
+    hashCode: 1649192853
+    unicode: 1911619601
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 105
+    x: 522
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@10012
+    hashCode: 1649192854
+    unicode: 1911619602
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 106
+    x: 574
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@10013
+    hashCode: 1649192855
+    unicode: 1911619603
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 107
+    x: 626
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@10014
+    hashCode: 1649192848
+    unicode: 1911619604
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 108
+    x: 678
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@1003
+    hashCode: -1511830746
+    unicode: 1327435779
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 109
+    x: 730
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@1101
+    hashCode: -1511833947
+    unicode: 1327436033
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 110
+    x: 782
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@1102
+    hashCode: -1511833946
+    unicode: 1327436034
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 111
+    x: 834
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@1201
+    hashCode: -1511828570
+    unicode: 1327436289
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 112
+    x: 886
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@1203
+    hashCode: -1511828572
+    unicode: 1327436291
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 113
+    x: 938
+    y: 200
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@1204
+    hashCode: -1511828573
+    unicode: 1327436292
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  - id: 114
+    x: 2
+    y: 148
+    width: 50
+    height: 50
+    xOffset: 0
+    yOffset: 50
+    xAdvance: 50
+    scale: 1
+    name: object1@1205
+    hashCode: -1511828574
+    unicode: 1327436293
+    pivot: {x: 0, y: 0}
+    sprite: {fileID: 0}
+  fallbackSpriteAssets: []
+--- !u!21 &21663818814402282
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9f07c25e468d99d4e9f8334b45db0396, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Login
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 2
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    packingParameters:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 18d14049a36ec934f80ff54881152f65, type: 3}
+    - {fileID: 102900000, guid: fd2abbb8c81a9e943a4c8eebb1982c5d, type: 3}
+    - {fileID: 102900000, guid: c205fc8404b0e2e42b510a6e350ebc3d, type: 3}
+    bindAsDefault: 0
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 34020b37848ef244a995f95c11eaa21d, type: 3}
+  - {fileID: 21300000, guid: 26cce114d9e2c114e8e409f067e6a250, type: 3}
+  - {fileID: 21300000, guid: 6bb886581f5bc3a43a69c0c4edc2b501, type: 3}
+  - {fileID: 21300000, guid: 21d5b9286e0077b4b9a171061e0c1559, type: 3}
+  - {fileID: 21300000, guid: 4e1d8cc7beb779745a00bb2add2ae00f, type: 3}
+  - {fileID: 21300000, guid: 71986df3556676c46be6f8351e84906b, type: 3}
+  - {fileID: 21300000, guid: a36b73592c78a7d4786961aa762bc566, type: 3}
+  - {fileID: 21300000, guid: 5c05ad5c1de43a34fbe673df101a3e83, type: 3}
+  - {fileID: 21300000, guid: 8c2e1b9fd4f3add42b1e80d9b56f8bf4, type: 3}
+  - {fileID: 21300000, guid: 0becbd5ecb78920429b2a9c1d5a691ab, type: 3}
+  - {fileID: 21300000, guid: f3801ef004bf1e843ab3f0e56a21e8a7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - game_logo
+  - sp_update_03
+  - ico_log_01
+  - ico_log_03
+  - ico_log_02
+  - ico_log_07
+  - ico_log_09
+  - ico_log_10
+  - sp_update_04
+  - sp_update_01
+  - sp_update_02
+  m_Tag: Login
+  m_IsVariant: 0

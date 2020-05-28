@@ -1,0 +1,3621 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: molotov_explode-08
+  serializedVersion: 6
+  m_Legacy: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.31666666
+        value: 0.8
+        inSlope: 0
+        outSlope: -1.3333333
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0
+        inSlope: -1.3333333
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.4333334
+        value: 0
+        inSlope: -0
+        outSlope: 1.6
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.9333334
+        value: 0.8
+        inSlope: 1.6
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (5)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 1
+        inSlope: 0
+        outSlope: -1.2071611
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.5372549
+        inSlope: -1.2071611
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3333333
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.3882345
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6666667
+        value: 1
+        inSlope: 1.3882345
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (5)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0.22758621
+        inSlope: 0
+        outSlope: 0.20425084
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.30588236
+        inSlope: 0.20425084
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3333333
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.23488835
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6666667
+        value: 0.22758621
+        inSlope: -0.23488835
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (5)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0
+        inSlope: 0
+        outSlope: 0.33759594
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.12941177
+        inSlope: 0.33759594
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3333333
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.38823512
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6666667
+        value: 0
+        inSlope: -0.38823512
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (5)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0
+        inSlope: 0
+        outSlope: 2.0634782
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.791
+        inSlope: 2.0634782
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3333333
+        value: 0.791
+        inSlope: -0
+        outSlope: -2.372999
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6666667
+        value: 0
+        inSlope: -2.372999
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (5)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.8
+        inSlope: 0
+        outSlope: -1.7350001
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.106
+        inSlope: -1.7350001
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3166666
+        value: 0.106
+        inSlope: -0
+        outSlope: 1.542222
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.7666667
+        value: 0.8
+        inSlope: 1.542222
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (6)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 1
+        inSlope: 0
+        outSlope: -2.1357467
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.5372549
+        inSlope: -2.1357467
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2166667
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (6)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.361367
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.30588236
+        inSlope: 0.361367
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2166667
+        value: 0.30588236
+        inSlope: -0
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (6)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0
+        inSlope: 0
+        outSlope: 0.59728515
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.12941177
+        inSlope: 0.59728515
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2166667
+        value: 0.12941177
+        inSlope: -0
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (6)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0
+        inSlope: 0
+        outSlope: 3.6195111
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.7842273
+        inSlope: 3.6195111
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2166667
+        value: 0.7842273
+        inSlope: -0
+        outSlope: -1.8821452
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6333334
+        value: 0
+        inSlope: -1.8821452
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (6)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 0.8
+        inSlope: 0
+        outSlope: -2.1818182
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.65
+        value: 0
+        inSlope: -2.1818182
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3
+        value: 0
+        inSlope: -0
+        outSlope: 1.4117649
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8666666
+        value: 0.8
+        inSlope: 1.4117649
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (7)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 1
+        inSlope: 0
+        outSlope: -2.3137252
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.6166667
+        value: 0.5372549
+        inSlope: -2.3137252
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.0283222
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.75
+        value: 1
+        inSlope: 1.0283222
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (7)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.3914808
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.6166667
+        value: 0.30588236
+        inSlope: 0.3914808
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.17399147
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.75
+        value: 0.2275862
+        inSlope: -0.17399147
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (7)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0.6470588
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.6166667
+        value: 0.12941177
+        inSlope: 0.6470588
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.28758168
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.75
+        value: 0
+        inSlope: -0.28758168
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (7)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 3.9211361
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.6166667
+        value: 0.7842273
+        inSlope: 3.9211361
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3
+        value: 0.7842273
+        inSlope: -0
+        outSlope: -1.7427272
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.75
+        value: 0
+        inSlope: -1.7427272
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (7)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.8
+        inSlope: 0
+        outSlope: -1.846154
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.51666665
+        value: 0
+        inSlope: -1.846154
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0
+        inSlope: -0
+        outSlope: 1.9199997
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.7666667
+        value: 0.8
+        inSlope: 1.9199997
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (8)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.23333333
+        value: 1
+        inSlope: 0
+        outSlope: -1.633218
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.51666665
+        value: 0.5372549
+        inSlope: -1.633218
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.7352941
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 1
+        inSlope: 1.7352941
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (8)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.23333333
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.27633944
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.51666665
+        value: 0.30588236
+        inSlope: 0.27633944
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.29361066
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0.2275862
+        inSlope: -0.29361066
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (8)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.23333333
+        value: 0
+        inSlope: 0
+        outSlope: 0.45674747
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.51666665
+        value: 0.12941177
+        inSlope: 0.45674747
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.48529416
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -0.48529416
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (8)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.23333333
+        value: 0
+        inSlope: 0
+        outSlope: 2.8235297
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.51666665
+        value: 0.8
+        inSlope: 2.8235297
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0.8
+        inSlope: -0
+        outSlope: -3.0000002
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -3.0000002
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (8)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.23333333
+        value: 0.8
+        inSlope: 0
+        outSlope: -2.2857146
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0
+        inSlope: -2.2857146
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.4
+        value: 0
+        inSlope: -0
+        outSlope: 1.9200008
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8166666
+        value: 0.8
+        inSlope: 1.9200008
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (9)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 1
+        inSlope: 0
+        outSlope: -1.8509805
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.5372549
+        inSlope: -1.8509805
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 0.86764705
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 1
+        inSlope: 0.86764705
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (9)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.3131847
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.30588236
+        inSlope: 0.3131847
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.14680533
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 0.2275862
+        inSlope: -0.14680533
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (9)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0.51764715
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.12941177
+        inSlope: 0.51764715
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.24264708
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 0
+        inSlope: -0.24264708
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (9)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 3.2000005
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.8
+        inSlope: 3.2000005
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.8
+        inSlope: -0
+        outSlope: -1.5000001
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 0
+        inSlope: -1.5000001
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (9)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.2
+        value: 0.8
+        inSlope: 0
+        outSlope: -2.2857141
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.55
+        value: 0
+        inSlope: -2.2857141
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2333333
+        value: 0
+        inSlope: -0
+        outSlope: 1.2972976
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.85
+        value: 0.8
+        inSlope: 1.2972976
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (10)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 1
+        inSlope: 0
+        outSlope: -2.524064
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.55
+        value: 0.5372549
+        inSlope: -2.524064
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2333333
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.0283222
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6833334
+        value: 1
+        inSlope: 1.0283222
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (10)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.42707002
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.55
+        value: 0.30588236
+        inSlope: 0.42707002
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2333333
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.17399147
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6833334
+        value: 0.2275862
+        inSlope: -0.17399147
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (10)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0
+        inSlope: 0
+        outSlope: 0.7058824
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.55
+        value: 0.12941177
+        inSlope: 0.7058824
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2333333
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.28758168
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6833334
+        value: 0
+        inSlope: -0.28758168
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (10)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0
+        inSlope: 0
+        outSlope: 4.3636365
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.55
+        value: 0.8
+        inSlope: 4.3636365
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2333333
+        value: 0.8
+        inSlope: -0
+        outSlope: -1.7777777
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6833334
+        value: 0
+        inSlope: -1.7777777
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (10)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.8
+        inSlope: 0
+        outSlope: -1.8461539
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0
+        inSlope: -1.8461539
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0
+        inSlope: -0
+        outSlope: 1.5483872
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.7666667
+        value: 0.8
+        inSlope: 1.5483872
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (11)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 1
+        inSlope: 0
+        outSlope: -1.7352941
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0.5372549
+        inSlope: -1.7352941
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.2620324
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 1
+        inSlope: 1.2620324
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (11)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.29361066
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0.30588236
+        inSlope: 0.29361066
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.21353507
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0.2275862
+        inSlope: -0.21353507
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (11)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: 0
+        outSlope: 0.48529416
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0.12941177
+        inSlope: 0.48529416
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.3529413
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -0.3529413
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (11)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: 0
+        outSlope: 3.0000002
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0.8
+        inSlope: 3.0000002
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.8
+        inSlope: -0
+        outSlope: -2.181819
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -2.181819
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (11)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.8
+        inSlope: 0
+        outSlope: -2.526316
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -2.526316
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0
+        inSlope: -0
+        outSlope: 1.9200008
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 0.8
+        inSlope: 1.9200008
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (12)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.2
+        value: 1
+        inSlope: 0
+        outSlope: -2.3137252
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.4
+        value: 0.5372549
+        inSlope: -2.3137252
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.7352941
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.65
+        value: 1
+        inSlope: 1.7352941
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (12)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.2
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.39148083
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.4
+        value: 0.30588236
+        inSlope: 0.39148083
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.29361066
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.65
+        value: 0.2275862
+        inSlope: -0.29361066
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (12)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0.64705884
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.4
+        value: 0.12941177
+        inSlope: 0.64705884
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.48529416
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.65
+        value: 0
+        inSlope: -0.48529416
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (12)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 4
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.4
+        value: 0.8
+        inSlope: 4
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0.8
+        inSlope: -0
+        outSlope: -3.0000002
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.65
+        value: 0
+        inSlope: -3.0000002
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (12)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.21666667
+        value: 0.8
+        inSlope: 0
+        outSlope: -2.1818182
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0
+        inSlope: -2.1818182
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0
+        inSlope: -0
+        outSlope: 1.4117649
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8333333
+        value: 0.8
+        inSlope: 1.4117649
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (13)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.35
+        value: 1
+        inSlope: 0
+        outSlope: -1.9831933
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.5372549
+        inSlope: -1.9831933
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.3221291
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 1
+        inSlope: 1.3221291
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (13)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.35
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.33555505
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.30588236
+        inSlope: 0.33555505
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.2237034
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0.2275862
+        inSlope: -0.2237034
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (13)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.35
+        value: 0
+        inSlope: 0
+        outSlope: 0.55462193
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.12941177
+        inSlope: 0.55462193
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.36974803
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -0.36974803
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (13)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.35
+        value: 0
+        inSlope: 0
+        outSlope: 3.4285717
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.8
+        inSlope: 3.4285717
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.8
+        inSlope: -0
+        outSlope: -2.2857149
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -2.2857149
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (13)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.1861539
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.65
+        value: 0.229
+        inSlope: -1.1861539
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.45
+        value: 0.229
+        inSlope: -0
+        outSlope: 1.542
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.95
+        value: 1
+        inSlope: 1.542
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (5)/effect_models_04 (3)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.1
+        value: 1
+        inSlope: 0
+        outSlope: -1.3714286
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.68333334
+        value: 0.2
+        inSlope: -1.3714286
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0.2
+        inSlope: -0
+        outSlope: 1.6
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8833334
+        value: 1
+        inSlope: 1.6
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (6)/effect_models_04
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.542
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.229
+        inSlope: -1.542
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.229
+        inSlope: -0
+        outSlope: 1.4018184
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 1
+        inSlope: 1.4018184
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (7)/effect_models_04 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 1
+        inSlope: 0
+        outSlope: -1.6551725
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.56666666
+        value: 0.2
+        inSlope: -1.6551725
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.2
+        inSlope: -0
+        outSlope: 1.3714287
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.85
+        value: 1
+        inSlope: 1.3714287
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (8)/effect_models_04 (8)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.5
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0.2
+        inSlope: -1.5
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.2
+        inSlope: -0
+        outSlope: 1.3333336
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.85
+        value: 1
+        inSlope: 1.3333336
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (9)/effect_models_04 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.1842105
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.6333333
+        value: 0.25
+        inSlope: -1.1842105
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.25
+        inSlope: -0
+        outSlope: 1.153846
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.9166667
+        value: 1
+        inSlope: 1.153846
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (11)/effect_models_04 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.1162791
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.71666664
+        value: 0.2
+        inSlope: -1.1162791
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0.2
+        inSlope: -0
+        outSlope: 1.333333
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.95
+        value: 1
+        inSlope: 1.333333
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (12)/effect_models_04 (5)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.0513637
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.73333335
+        value: 0.229
+        inSlope: -1.0513637
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.1833334
+        value: 0.229
+        inSlope: -0
+        outSlope: 1.1861541
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8333333
+        value: 1
+        inSlope: 1.1861541
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (13)/effect_models_04 (4)
+    classID: 23
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 3.95
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.31666666
+        value: 0.8
+        inSlope: 0
+        outSlope: -1.3333333
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0
+        inSlope: -1.3333333
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.4333334
+        value: 0
+        inSlope: -0
+        outSlope: 1.6
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.9333334
+        value: 0.8
+        inSlope: 1.6
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (5)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 1
+        inSlope: 0
+        outSlope: -1.2071611
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.5372549
+        inSlope: -1.2071611
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3333333
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.3882345
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6666667
+        value: 1
+        inSlope: 1.3882345
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (5)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0.22758621
+        inSlope: 0
+        outSlope: 0.20425084
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.30588236
+        inSlope: 0.20425084
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3333333
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.23488835
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6666667
+        value: 0.22758621
+        inSlope: -0.23488835
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (5)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0
+        inSlope: 0
+        outSlope: 0.33759594
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.12941177
+        inSlope: 0.33759594
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3333333
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.38823512
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6666667
+        value: 0
+        inSlope: -0.38823512
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (5)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0
+        inSlope: 0
+        outSlope: 2.0634782
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.791
+        inSlope: 2.0634782
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3333333
+        value: 0.791
+        inSlope: -0
+        outSlope: -2.372999
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6666667
+        value: 0
+        inSlope: -2.372999
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (5)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.18333334
+        value: 0.8
+        inSlope: 0
+        outSlope: -1.7350001
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.106
+        inSlope: -1.7350001
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3166666
+        value: 0.106
+        inSlope: -0
+        outSlope: 1.542222
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.7666667
+        value: 0.8
+        inSlope: 1.542222
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (6)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 1
+        inSlope: 0
+        outSlope: -2.1357467
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.5372549
+        inSlope: -2.1357467
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2166667
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (6)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.361367
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.30588236
+        inSlope: 0.361367
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2166667
+        value: 0.30588236
+        inSlope: -0
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (6)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0
+        inSlope: 0
+        outSlope: 0.59728515
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.12941177
+        inSlope: 0.59728515
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2166667
+        value: 0.12941177
+        inSlope: -0
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (6)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0
+        inSlope: 0
+        outSlope: 3.6195111
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.7842273
+        inSlope: 3.6195111
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2166667
+        value: 0.7842273
+        inSlope: -0
+        outSlope: -1.8821452
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6333334
+        value: 0
+        inSlope: -1.8821452
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (6)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.28333333
+        value: 0.8
+        inSlope: 0
+        outSlope: -2.1818182
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.65
+        value: 0
+        inSlope: -2.1818182
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3
+        value: 0
+        inSlope: -0
+        outSlope: 1.4117649
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8666666
+        value: 0.8
+        inSlope: 1.4117649
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (7)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 1
+        inSlope: 0
+        outSlope: -2.3137252
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.6166667
+        value: 0.5372549
+        inSlope: -2.3137252
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.0283222
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.75
+        value: 1
+        inSlope: 1.0283222
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (7)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.3914808
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.6166667
+        value: 0.30588236
+        inSlope: 0.3914808
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.17399147
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.75
+        value: 0.2275862
+        inSlope: -0.17399147
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (7)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0.6470588
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.6166667
+        value: 0.12941177
+        inSlope: 0.6470588
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.28758168
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.75
+        value: 0
+        inSlope: -0.28758168
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (7)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 3.9211361
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.6166667
+        value: 0.7842273
+        inSlope: 3.9211361
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3
+        value: 0.7842273
+        inSlope: -0
+        outSlope: -1.7427272
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.75
+        value: 0
+        inSlope: -1.7427272
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (7)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.8
+        inSlope: 0
+        outSlope: -1.846154
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.51666665
+        value: 0
+        inSlope: -1.846154
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0
+        inSlope: -0
+        outSlope: 1.9199997
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.7666667
+        value: 0.8
+        inSlope: 1.9199997
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (8)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.23333333
+        value: 1
+        inSlope: 0
+        outSlope: -1.633218
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.51666665
+        value: 0.5372549
+        inSlope: -1.633218
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.7352941
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 1
+        inSlope: 1.7352941
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (8)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.23333333
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.27633944
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.51666665
+        value: 0.30588236
+        inSlope: 0.27633944
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.29361066
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0.2275862
+        inSlope: -0.29361066
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (8)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.23333333
+        value: 0
+        inSlope: 0
+        outSlope: 0.45674747
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.51666665
+        value: 0.12941177
+        inSlope: 0.45674747
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.48529416
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -0.48529416
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (8)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.23333333
+        value: 0
+        inSlope: 0
+        outSlope: 2.8235297
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.51666665
+        value: 0.8
+        inSlope: 2.8235297
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0.8
+        inSlope: -0
+        outSlope: -3.0000002
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -3.0000002
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (8)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.23333333
+        value: 0.8
+        inSlope: 0
+        outSlope: -2.2857146
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0
+        inSlope: -2.2857146
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.4
+        value: 0
+        inSlope: -0
+        outSlope: 1.9200008
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8166666
+        value: 0.8
+        inSlope: 1.9200008
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (9)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 1
+        inSlope: 0
+        outSlope: -1.8509805
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.5372549
+        inSlope: -1.8509805
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 0.86764705
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 1
+        inSlope: 0.86764705
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (9)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.3131847
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.30588236
+        inSlope: 0.3131847
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.14680533
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 0.2275862
+        inSlope: -0.14680533
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (9)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0.51764715
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.12941177
+        inSlope: 0.51764715
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.24264708
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 0
+        inSlope: -0.24264708
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (9)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 3.2000005
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.8
+        inSlope: 3.2000005
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.8
+        inSlope: -0
+        outSlope: -1.5000001
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 0
+        inSlope: -1.5000001
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (9)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.2
+        value: 0.8
+        inSlope: 0
+        outSlope: -2.2857141
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.55
+        value: 0
+        inSlope: -2.2857141
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2333333
+        value: 0
+        inSlope: -0
+        outSlope: 1.2972976
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.85
+        value: 0.8
+        inSlope: 1.2972976
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (10)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 1
+        inSlope: 0
+        outSlope: -2.524064
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.55
+        value: 0.5372549
+        inSlope: -2.524064
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2333333
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.0283222
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6833334
+        value: 1
+        inSlope: 1.0283222
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (10)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.42707002
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.55
+        value: 0.30588236
+        inSlope: 0.42707002
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2333333
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.17399147
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6833334
+        value: 0.2275862
+        inSlope: -0.17399147
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (10)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0
+        inSlope: 0
+        outSlope: 0.7058824
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.55
+        value: 0.12941177
+        inSlope: 0.7058824
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2333333
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.28758168
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6833334
+        value: 0
+        inSlope: -0.28758168
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (10)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.36666667
+        value: 0
+        inSlope: 0
+        outSlope: 4.3636365
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.55
+        value: 0.8
+        inSlope: 4.3636365
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2333333
+        value: 0.8
+        inSlope: -0
+        outSlope: -1.7777777
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6833334
+        value: 0
+        inSlope: -1.7777777
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (10)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.8
+        inSlope: 0
+        outSlope: -1.8461539
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0
+        inSlope: -1.8461539
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0
+        inSlope: -0
+        outSlope: 1.5483872
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.7666667
+        value: 0.8
+        inSlope: 1.5483872
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (11)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 1
+        inSlope: 0
+        outSlope: -1.7352941
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0.5372549
+        inSlope: -1.7352941
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.2620324
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 1
+        inSlope: 1.2620324
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (11)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.29361066
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0.30588236
+        inSlope: 0.29361066
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.21353507
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0.2275862
+        inSlope: -0.21353507
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (11)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: 0
+        outSlope: 0.48529416
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0.12941177
+        inSlope: 0.48529416
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.3529413
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -0.3529413
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (11)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.16666667
+        value: 0
+        inSlope: 0
+        outSlope: 3.0000002
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.43333334
+        value: 0.8
+        inSlope: 3.0000002
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.8
+        inSlope: -0
+        outSlope: -2.181819
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -2.181819
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (11)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 0.8
+        inSlope: 0
+        outSlope: -2.526316
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.4
+        value: 0
+        inSlope: -2.526316
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0
+        inSlope: -0
+        outSlope: 1.9200008
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 0.8
+        inSlope: 1.9200008
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (12)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.2
+        value: 1
+        inSlope: 0
+        outSlope: -2.3137252
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.4
+        value: 0.5372549
+        inSlope: -2.3137252
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.7352941
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.65
+        value: 1
+        inSlope: 1.7352941
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (12)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.2
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.39148083
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.4
+        value: 0.30588236
+        inSlope: 0.39148083
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.29361066
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.65
+        value: 0.2275862
+        inSlope: -0.29361066
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (12)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0.64705884
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.4
+        value: 0.12941177
+        inSlope: 0.64705884
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.48529416
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.65
+        value: 0
+        inSlope: -0.48529416
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (12)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 4
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.4
+        value: 0.8
+        inSlope: 4
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0.8
+        inSlope: -0
+        outSlope: -3.0000002
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.65
+        value: 0
+        inSlope: -3.0000002
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (12)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.21666667
+        value: 0.8
+        inSlope: 0
+        outSlope: -2.1818182
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0
+        inSlope: -2.1818182
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0
+        inSlope: -0
+        outSlope: 1.4117649
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8333333
+        value: 0.8
+        inSlope: 1.4117649
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (13)/effect_models-02 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.35
+        value: 1
+        inSlope: 0
+        outSlope: -1.9831933
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.5372549
+        inSlope: -1.9831933
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.5372549
+        inSlope: -0
+        outSlope: 1.3221291
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 1
+        inSlope: 1.3221291
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: GameObject (13)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.35
+        value: 0.2275862
+        inSlope: 0
+        outSlope: 0.33555505
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.30588236
+        inSlope: 0.33555505
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.30588236
+        inSlope: -0
+        outSlope: -0.2237034
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0.2275862
+        inSlope: -0.2237034
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: GameObject (13)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.35
+        value: 0
+        inSlope: 0
+        outSlope: 0.55462193
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.12941177
+        inSlope: 0.55462193
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.12941177
+        inSlope: -0
+        outSlope: -0.36974803
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -0.36974803
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: GameObject (13)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.35
+        value: 0
+        inSlope: 0
+        outSlope: 3.4285717
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.8
+        inSlope: 3.4285717
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.8
+        inSlope: -0
+        outSlope: -2.2857149
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.6166666
+        value: 0
+        inSlope: -2.2857149
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: GameObject (13)/effect_models-02 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.1861539
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.65
+        value: 0.229
+        inSlope: -1.1861539
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.45
+        value: 0.229
+        inSlope: -0
+        outSlope: 1.542
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.95
+        value: 1
+        inSlope: 1.542
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (5)/effect_models_04 (3)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.1
+        value: 1
+        inSlope: 0
+        outSlope: -1.3714286
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.68333334
+        value: 0.2
+        inSlope: -1.3714286
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.3833334
+        value: 0.2
+        inSlope: -0
+        outSlope: 1.6
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8833334
+        value: 1
+        inSlope: 1.6
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (6)/effect_models_04
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.542
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.229
+        inSlope: -1.542
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.229
+        inSlope: -0
+        outSlope: 1.4018184
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8
+        value: 1
+        inSlope: 1.4018184
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (7)/effect_models_04 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.083333336
+        value: 1
+        inSlope: 0
+        outSlope: -1.6551725
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.56666666
+        value: 0.2
+        inSlope: -1.6551725
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.2
+        inSlope: -0
+        outSlope: 1.3714287
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.85
+        value: 1
+        inSlope: 1.3714287
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (8)/effect_models_04 (8)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.5
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0.2
+        inSlope: -1.5
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.25
+        value: 0.2
+        inSlope: -0
+        outSlope: 1.3333336
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.85
+        value: 1
+        inSlope: 1.3333336
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (9)/effect_models_04 (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.1842105
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.6333333
+        value: 0.25
+        inSlope: -1.1842105
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.2666667
+        value: 0.25
+        inSlope: -0
+        outSlope: 1.153846
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.9166667
+        value: 1
+        inSlope: 1.153846
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (11)/effect_models_04 (1)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.1162791
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.71666664
+        value: 0.2
+        inSlope: -1.1162791
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.35
+        value: 0.2
+        inSlope: -0
+        outSlope: 1.333333
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.95
+        value: 1
+        inSlope: 1.333333
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (12)/effect_models_04 (5)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1.0513637
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 0.73333335
+        value: 0.229
+        inSlope: -1.0513637
+        outSlope: 0
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.1833334
+        value: 0.229
+        inSlope: -0
+        outSlope: 1.1861541
+        tangentMode: 69
+      - serializedVersion: 2
+        time: 3.8333333
+        value: 1
+        inSlope: 1.1861541
+        outSlope: 0
+        tangentMode: 69
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Strength
+    path: GameObject (13)/effect_models_04 (4)
+    classID: 23
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

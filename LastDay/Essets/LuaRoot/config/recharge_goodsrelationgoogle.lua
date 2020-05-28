@@ -1,0 +1,12 @@
+return {{GoodsID=1,GooglePlayGoodsID="com.rongygame.tmd.goods1",},
+{GoodsID=3,GooglePlayGoodsID="com.rongygame.tmd.goods3",},
+{GoodsID=4,GooglePlayGoodsID="com.rongygame.tmd.goods4",},
+{GoodsID=5,GooglePlayGoodsID="com.rongygame.tmd.goods5",},
+{GoodsID=7,GooglePlayGoodsID="com.rongygame.tmd.goods7",},
+{GoodsID=8,GooglePlayGoodsID="com.rongygame.tmd.goods8",},
+{GoodsID=9,GooglePlayGoodsID="com.rongygame.tmd.goods9",},
+{GoodsID=10,GooglePlayGoodsID="com.rongygame.tmd.goods10",},
+{GoodsID=11,GooglePlayGoodsID="com.rongygame.tmd.goods11",},
+{GoodsID=12,GooglePlayGoodsID="com.rongygame.tmd.goods12",},
+{GoodsID=13,GooglePlayGoodsID="com.rongygame.tmd.goods17",},
+}

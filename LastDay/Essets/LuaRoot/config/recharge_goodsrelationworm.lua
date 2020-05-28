@@ -1,0 +1,13 @@
+return {{GoodsID=1,WormGoodsID="103435",},
+{GoodsID=3,WormGoodsID="103437",},
+{GoodsID=4,WormGoodsID="103438",},
+{GoodsID=5,WormGoodsID="103439",},
+{GoodsID=7,WormGoodsID="103440",},
+{GoodsID=8,WormGoodsID="103441",},
+{GoodsID=9,WormGoodsID="103442",},
+{GoodsID=10,WormGoodsID="103443",},
+{GoodsID=11,WormGoodsID="103444",},
+{GoodsID=12,WormGoodsID="103445",},
+{GoodsID=13,WormGoodsID="103436",},
+{GoodsID=14,WormGoodsID="103793",},
+}

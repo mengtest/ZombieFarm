@@ -1,0 +1,5 @@
+return {{ID=101,cooldown=1400,castingTime=500,duration=1300,minDistance=450,maxDistance=850,cost=1,damage=3,inventoryFull=1,icon="ico_main_048",action="cutting",SFX="SFX/Tools/HatchetChop_tree",SE="Tree/cut_hit_pine",},
+{ID=102,cooldown=1400,castingTime=500,duration=1300,minDistance=700,maxDistance=1000,cost=1,damage=3,inventoryFull=1,icon="ico_main_048",action="cutting",SFX="SFX/Tools/HatchetChop_tree",SE="Tree/cut_hit_pine",},
+{ID=111,cooldown=1400,castingTime=567,duration=1233,minDistance=200,maxDistance=850,cost=1,damage=3,inventoryFull=1,icon="ico_main_043",action="mining",SFX="SFX/Tools/PickaxeLv1_mining",SE="Common/mine_hit",},
+{ID=112,cooldown=1400,castingTime=567,duration=1233,minDistance=200,maxDistance=850,cost=1,damage=3,inventoryFull=1,icon="ico_main_043",action="mining",SFX="SFX/Tools/PickaxeLv1_mining",SE="Common/mine_hit",},
+}
